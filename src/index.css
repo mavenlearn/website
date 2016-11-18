@@ -3,3 +3,82 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.mainPhrase {
+  color: white;
+  position: absolute;
+  text-align: center;
+  /*top: 485px;*/
+  top: 51vh;
+  width: 100%;
+  /*font-size: 48px;*/
+  font-size: 2.5vw;
+  text-transform: uppercase;
+}
+
+.homePageHeader {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gridLogo {
+  position: absolute;
+  /*top: 30px;*/
+  top: 5vh;
+}
+
+.bgimg {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+}
+
+.reserveButton {
+  position: absolute;
+  /*top: 650px;*/
+  top: 75vh;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  /*font-size: 40px;*/
+  font-size: 2vw;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+.reserveButton:hover {
+  background: #fff;
+  color: black;
+}
+
+.introParagraph {
+  position: absolute;
+  /*top: 1100px;*/
+  top: 110vh;
+  background: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.courseInfo {
+  color: lightgrey;
+  overflow-wrap: break-word;
+  /*font-size: 40px;*/
+  font-size: 2vw;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+
+
+
+
