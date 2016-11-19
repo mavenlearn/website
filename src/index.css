@@ -1,75 +1,23 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
 
-.mainPhrase {
-  color: white;
-  text-align: center;
-  top: 51vh;
-  width: 100%;
-  font-size: 4vw;
-  text-transform: uppercase;
-  position: absolute;
-  top: 7em;
-  left: 0.5em;
-  letter-spacing: 0.1em;
-}
 
-.headContainer {
-  background-image: url('./containers/img/bg1.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 1000px;
-}
 
-.headerContent  {
-  width: 32%;
-  margin: 0 auto;
-}
 
-.gridLogo {
-  width: 100%;
-  height: auto;
-}
 
-.reserveButton {
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  font-size: 2vw;
-  letter-spacing: 0.2em;
-  margin-top: 2em;
-  text-transform: uppercase;
-  border: 1px solid #fff;
-  padding: 0.8em 2em;
-  letter-spacing: 0.3em;
-}
 
-.reserveButton:hover {
-  background: #fff;
-  color: lightblue;
-  text-decoration: none;
 
-}
 
-.introParagraph {
-  background: white;
-  width: 100%;
-  text-align: center;
-  margin-top: 11vw;
-  padding-bottom: 4vw;
-  padding-top:4vw;
-  padding-right:9vw;
-  padding-left:9vw;
-  height: auto;
-}
 
-.courseInfo {
-  color: lightgrey;
-  font-size: 2vw;
-  margin: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

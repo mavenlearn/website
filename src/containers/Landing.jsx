@@ -1,24 +1,21 @@
 import React from 'react';
-import bgImg from './img/bg1.png';
 import gridLogo from './img/gridLogo.png';
+import Course from '../components/Course';
+import preload from '../data.json';
+import styled from 'styled-components';
+
+const Courses = styled.div `
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+`;
 
 const Landing = () => (
-  <div className="headContainer">
-    <div className="headerContent">
-      <div>
-        <img src={gridLogo} className="gridLogo" alt="gridLogo" />
-      </div>
-      <div>
-        <h1 className="mainPhrase">become a software engineer</h1>
-        <a className="reserveButton" type="button">reserve</a>
-      </div>
-    </div>
-    <div className="introParagraph">
-      <p className="courseInfo"> Maven is a coding bootcamp that graduates mid to senior level Software Engineers.
-      We offer a beginners course, Apprentice, that has been designed especially for anyone
-      wanting to take their first steps into Software Engineering. </p>
-    </div>
-  </div>
+  <Courses>
+    <Course course={preload.courses[0]} />
+    <Course course={preload.courses[2]} />
+  </Courses>
 );
 
 export default Landing;
