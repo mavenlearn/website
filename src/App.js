@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
-import Landing from './Landing';
+import Landing from './containers/Landing';
 
 const App = () => (
   <Router history={browserHistory}>
