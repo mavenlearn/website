@@ -3,7 +3,7 @@
 //   1. open: a boolean to check if the menu is open or not
 
 
-import React from 'react';
+import React { proptypes } from 'react';
 import styled from 'styled-components';
 
 const NavList = styled.nav`
@@ -25,7 +25,6 @@ const Overlay = styled.div`
 `;
 
 
-
 const Menu = {open} => (
   {open ? <Overlay open> : <Overlay>}
     <NavList>
@@ -38,3 +37,7 @@ const Menu = {open} => (
     </NavList>
   </Overlay>
 );
+
+Menu.proptypes = {
+  open: PropTypes.bool,
+}
