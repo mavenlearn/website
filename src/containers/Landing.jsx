@@ -1,15 +1,20 @@
 import React from 'react';
+import bgImg from './img/bg1.png';
 import gridLogo from './img/gridLogo.png';
 import Course from '../components/Course';
 import preload from '../data.json';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 
+// const Courses = styled.div `
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-around;
+//   width: 100%;
+// `;
+
 const Courses = styled.div `
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
 `;
 
 const Head = styled.div`
@@ -99,24 +104,26 @@ const InfoParagraph = styled.p`
 `;
 
 const Landing = () => (
-  <Head>
-    <Container>
-      <ImageLogo src={gridLogo}/>
-    </Container>
-    <div>
-      <Title>Become a Software Engineer</Title>
-      <Button>Reserve</Button>
+  <div>
+    <Head>
+      <Container>
+        <ImageLogo src={gridLogo}/>
+      </Container>
+      <div>
+        <Title>Become a Software Engineer</Title>
+        <Button>Reserve</Button>
 
-    </div>
-      <Info>
-        <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
-      </Info>
-  </Head>
+      </div>
+        <Info>
+          <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
+        </Info>
+    </Head>
 
-  <Courses>
-    <Course course={preload.courses[0]} />
-    <Course course={preload.courses[2]} />
-  </Courses>
+    <Courses>
+      <Course course={preload.courses[0]} />
+      <Course course={preload.courses[2]} />
+    </Courses>
+  </div>
 );
 
 export default Landing;
