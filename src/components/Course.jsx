@@ -1,17 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
+import { media } from '../utils/mediaqueries';
 
 const Container = styled.div `
-  border-radius: 4px;
+  flex: 1;
   text-align: left;
-  width: 50%;
   margin-right: 20px;
   margin-left: 20px;
-  height: 0;
   padding-bottom: 19.8%;
   margin-bottom: 3%;
   border-bottom: 2em solid #337ab7;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px lightgrey;
+  position: relative;
 `;
 
 const CourseText = styled.div `
@@ -31,14 +31,26 @@ const CourseTitle = styled.h3 `
 const CourseNextClass = styled.h4 `
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 1em;
   color: #337ab7;
+  ${media.phone`
+    display:none
+    `}
 `;
 
 const CourseDescription = styled.h4 `
   margin: 0;
-  font-size: 13px;
+  font-size: 1em;
   margin-bottom: 10px;
+  ${media.desktop`
+    font-size: 1em;
+    `}
+  ${media.tablet`
+    font-size: 1em;
+    `}
+  ${media.phone`
+    display:none
+    `}
 `;
 
 
@@ -54,44 +66,3 @@ const Course = (props) => (
 );
 
 export default Course
-
-
-
-/*.course {
-  border-radius: 4px;
-  text-align: left;
-  width: 30%;
-  height: 0;
-  padding-bottom: 19.8%;
-  margin-bottom: 3%;
-  border-bottom: 2em solid #337ab7;
-  box-shadow: 0 0 10px black;
-}
-
-.course-text {
-  display: block;
-  float: left;
-  width: 70%;
-  padding: 30px;
-}
-
-.course-title {
-  margin-top: 0;
-  margin-bottom: 5px;
-  color: lightgrey;
-  text-transform: uppercase;
-}
-
-.course-nextClass {
-  margin-top: 0;
-  margin-bottom: 5px;
-  font-size: 13px;
-  color: #337ab7;
-}
-
-.course-description {
-  margin: 0;
-  font-size: 13px;
-  margin-bottom: 10px;
-}
-*/

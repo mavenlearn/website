@@ -1,33 +1,37 @@
 import React from 'react';
 import bgImg from './img/bg1.png';
+import bgImg2 from './img/bg2.png';
 import gridLogo from './img/gridLogo.png';
 import Course from '../components/Course';
 import preload from '../data.json';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 
-// const Courses = styled.div `
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-around;
-//   width: 100%;
-// `;
 
 const Courses = styled.div `
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 94vw;
+  margin-top: 10vh;
 `;
 
 const Head = styled.div`
   background-image: url(${bgImg});
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 1000px;
+
 `;
 
 const Container = styled.div`
   width: 25%;
   margin: 0 auto;
+  padding-top: 50px;
 `;
 
 const ImageLogo = styled.img`
@@ -81,19 +85,18 @@ const Info = styled.div`
   width: 100%;
   background: white;
   text-align: center;
-  margin-top: 5vw;
-  padding-bottom: 4vw;
-  padding-top:4vw;
-  padding-right:9vw;
-  padding-left:9vw;
+  margin-top: 10vw;
+  padding: 4vw 9vw;
   height: auto;
 `;
+
 const InfoParagraph = styled.p`
-  color: lightgrey;
-  font-size: 1.5em;
+  color: grey;
+  font-size: 1.2em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 0.1em;
+  line-height: 2em;
   margin: 0;
   ${media.tablet`
     font-size: 1.3em;
@@ -101,6 +104,14 @@ const InfoParagraph = styled.p`
   ${media.phone`
     font-size: 1em;
     `}
+`;
+
+const Crop = styled.div`
+  background-image: url(${bgImg2});
+  background-size: 100%;
+  height: 25vh;
+  background-repeat: no-repeat;
+
 `;
 
 const Landing = () => (
@@ -112,11 +123,11 @@ const Landing = () => (
       <div>
         <Title>Become a Software Engineer</Title>
         <Button>Reserve</Button>
-
       </div>
-        <Info>
-          <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
-        </Info>
+      <Info>
+        <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
+      </Info>
+      <Crop />
     </Head>
 
     <Courses>
