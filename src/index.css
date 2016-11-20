@@ -27,15 +27,11 @@ p {
 
 a {
   font-size: 1.5em;
-  color: #449AD3;
   transition: 1s ease;
   margin-right:0.5rem;
-
 }
 
-
-a:hover {
+a:hover, a:visited, a:focus {
   text-decoration: none;
-  color:#449AD3;
-  opacity: 0.2;
+  outline: none;
 }

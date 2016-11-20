@@ -2,10 +2,11 @@ import React from 'react';
 import bgImg from './img/bg1.png';
 import bgImg2 from './img/bg2.png';
 import gridLogo from './img/gridLogo.png';
-import Course from '../components/Course';
 import preload from '../data.json';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import Course from '../components/Course';
+import Menu from '../components/Menu';
 
 
 const Courses = styled.div `
@@ -25,7 +26,6 @@ const Head = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-
 `;
 
 const Container = styled.div`
@@ -117,6 +117,7 @@ const Crop = styled.div`
 const Landing = () => (
   <div>
     <Head>
+      <Menu />
       <Container>
         <ImageLogo src={gridLogo}/>
       </Container>
@@ -129,7 +130,6 @@ const Landing = () => (
       </Info>
       <Crop />
     </Head>
-
     <Courses>
       <Course course={preload.courses[0]} />
       <Course course={preload.courses[2]} />
