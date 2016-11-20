@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImg from './img/bggg.png';
+import bgImg from './img/longBg.jpg';
 import bgImg2 from './img/bg2.png';
 import bgImg3 from './img/bg3.png';
 import gridLogo from './img/gridLogo.png';
@@ -25,6 +25,7 @@ const Courses = styled.div `
 const Head = styled.div`
   padding-bottom: 10vw;
   background-image: url(${bgImg});
+  background-size: cover;
   text-align: center;
   background-repeat: repeat-x;
   animation: animatedBackground 100s linear infinite;
@@ -147,10 +148,3 @@ const Landing = () => (
 );
 
 export default Landing;
-
-
-
-
-
-
-
