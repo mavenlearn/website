@@ -26,7 +26,7 @@ const Head = styled.div`
   background-image: url(${bgImg});
   text-align: center;
   background-repeat: repeat-x;
-  animation: animatedBackground 40s linear infinite;
+  animation: animatedBackground 100s linear infinite;
 `;
 
 const HubbleImage = styled.img `
