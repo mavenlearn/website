@@ -10,3 +10,33 @@ body {
   to { background-position: 100% 0; }
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 2.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: grey;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #449AD3;
+}
+
+p {
+  font-size: 1.5em;
+  color: grey;
+}
+
+a {
+  font-size: 1.5em;
+  transition: 1s ease;
+  margin-right:0.5rem;
+}
+
+a:hover, a:visited, a:focus {
+  text-decoration: none;
+  outline: none;
+}

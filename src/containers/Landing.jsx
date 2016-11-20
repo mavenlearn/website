@@ -3,10 +3,11 @@ import bgImg from './img/bggg.png';
 import bgImg2 from './img/bg2.png';
 import bgImg3 from './img/bg3.png';
 import gridLogo from './img/gridLogo.png';
-import Course from '../components/Course';
 import preload from '../data.json';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import Course from '../components/Course';
+import Menu from '../components/Menu';
 
 
 const Courses = styled.div `
@@ -123,6 +124,7 @@ const Crop = styled.div`
 const Landing = () => (
   <div>
     <Head>
+      <Menu />
       <Container>
         <ImageLogo src={gridLogo}/>
       </Container>

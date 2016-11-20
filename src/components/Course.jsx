@@ -7,40 +7,32 @@ const Container = styled.div `
   text-align: left;
   margin-right: 20px;
   margin-left: 20px;
-  padding-bottom: 19.8%;
   margin-bottom: 3%;
-  border-bottom: 2em solid #337ab7;
-  box-shadow: 0 0 10px lightgrey;
+  border-bottom: 2em solid #449AD3;
+  box-shadow: 0 2px 10px 0 lightgrey;
   position: relative;
 `;
 
 const CourseText = styled.div `
-  display: block;
-  float: left;
-  width: 70%;
   padding: 30px;
 `;
 
-const CourseTitle = styled.h3 `
+const CourseTitle = styled.h2 `
   margin-top: 0;
   margin-bottom: 5px;
-  color: lightgrey;
-  text-transform: uppercase;
+
 `;
 
-const CourseNextClass = styled.h4 `
-  margin-top: 0;
-  margin-bottom: 5px;
-  font-size: 1em;
-  color: #337ab7;
+const CourseNextClass = styled.h3 `
+  margin-top:0;
+  padding: 0.2vw 0vh;
   ${media.phone`
     display:none
     `}
 `;
 
-const CourseDescription = styled.h4 `
+const CourseDescription = styled.p `
   margin: 0;
-  font-size: 1em;
   margin-bottom: 10px;
   ${media.desktop`
     font-size: 1em;
