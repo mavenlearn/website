@@ -1,6 +1,7 @@
 import React from 'react';
-import bgImg from './img/bg1.png';
+import bgImg from './img/bggg.png';
 import bgImg2 from './img/bg2.png';
+import bgImg3 from './img/bg3.png';
 import gridLogo from './img/gridLogo.png';
 import Course from '../components/Course';
 import preload from '../data.json';
@@ -21,11 +22,16 @@ const Courses = styled.div `
 `;
 
 const Head = styled.div`
+  padding-bottom: 10vw;
   background-image: url(${bgImg});
-  background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
+  background-repeat: repeat-x;
+  animation: animatedBackground 40s linear infinite;
+`;
 
+const HubbleImage = styled.img `
+  position: absolute;
+  width: 100%;
 `;
 
 const Container = styled.div`
@@ -85,7 +91,7 @@ const Info = styled.div`
   width: 100%;
   background: white;
   text-align: center;
-  margin-top: 10vw;
+  /*margin-top: 10vw;*/
   padding: 4vw 9vw;
   height: auto;
 `;
@@ -124,11 +130,12 @@ const Landing = () => (
         <Title>Become a Software Engineer</Title>
         <Button>Reserve</Button>
       </div>
-      <Info>
-        <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
-      </Info>
-      <Crop />
     </Head>
+
+    <Info>
+      <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
+    </Info>
+    <Crop />
 
     <Courses>
       <Course course={preload.courses[0]} />
@@ -138,3 +145,10 @@ const Landing = () => (
 );
 
 export default Landing;
+
+
+
+
+
+
+
