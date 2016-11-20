@@ -22,6 +22,9 @@ const Courses = styled.div `
   margin-top: 10vh;
 `;
 
+const BgContainer = styled.div`
+  position: relative;
+`;
 const Head = styled.div`
   padding-bottom: 10vw;
   background-image: url(${bgImg});
@@ -31,9 +34,16 @@ const Head = styled.div`
   animation: animatedBackground 100s linear infinite;
 `;
 
-const HubbleImage = styled.img `
-  position: absolute;
+const HubbleImage = styled.div `
+  position:absolute;
+  top:0;
+  left:0;
   width: 100%;
+  z-index:0;
+`;
+
+const Image = styled.img`
+  width:100%;
 `;
 
 const Container = styled.div`
@@ -55,6 +65,8 @@ const Title = styled.h1`
   font-size:4em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  z-index: 1;
+  position: relative;
   ${media.desktop`
     font-size: 4em;
     `}
@@ -80,6 +92,8 @@ const Button = styled.div`
   letter-spacing: 0.3em;
   transition: 1s;
   background: rgba(255,255,255,0);
+  position:relative;
+  z-index:1;
 
   &:hover {
     transition: 1s;
@@ -124,17 +138,21 @@ const Crop = styled.div`
 
 const Landing = () => (
   <div>
-    <Head>
-      <Menu />
-      <Container>
-        <ImageLogo src={gridLogo}/>
-      </Container>
-      <div>
-        <Title>Become a Software Engineer</Title>
-        <Button>Reserve</Button>
-      </div>
-    </Head>
-
+    <BgContainer>
+      <Head>
+        <Menu/>
+        <Container>
+          <ImageLogo src={gridLogo}/>
+        </Container>
+        <div>
+          <Title>Become a Software Engineer</Title>
+          <Button>Reserve</Button>
+        </div>
+      </Head>
+    </BgContainer>
+    <HubbleImage>
+      <Image src={bgImg3} alt="hubble" />
+    </HubbleImage>
     <Info>
       <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
     </Info>

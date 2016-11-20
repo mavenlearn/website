@@ -9,7 +9,6 @@ import { media } from '../utils/mediaqueries';
 
 const NavList = styled.nav`
   animation: fadeInRight .5s ease forwards;
-  animation-delay: .35s;
   position: relative;
   height: 70%;
   top: 17%;
@@ -30,15 +29,15 @@ const ListItem = styled.li`
 `;
 
 const ListLink = styled.a`
-  color:white;
-  transition: all .3 ease;
+  color:lightblue;
   padding: 10px;
   margin-top: 10px;
+  transition: all .5 ease;
 
   &:hover {
+    transition: all .5 ease;
     color: white;
     border: 1px solid white;
-    opacity: 0.5;
   }
 
   &:visited {
@@ -56,6 +55,7 @@ const Overlay = styled.div`
   opacity: ${props => props.open ? .9 : 0};
   visibility: ${props => props.open ? 'visible' : 'hidden'};
   overflow: hidden;
+  z-index: 1000;
 `;
 
 const MenuContainer = styled.div`
