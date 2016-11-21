@@ -32,6 +32,13 @@ const Head = styled.div`
   text-align: center;
   background-repeat: repeat-x;
   animation: animatedBackground 100s linear infinite;
+  height: 90vh;
+  ${media.tablet`
+      height: 40vh;
+    `}
+  ${media.phone`
+      height: 35vh;
+    `}
 `;
 
 const HubbleImage = styled.div `
@@ -39,11 +46,22 @@ const HubbleImage = styled.div `
   top:0;
   left:0;
   width: 100%;
+  height: 90vh;
   z-index:0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  ${media.tablet`
+      height: 40vh;
+    `}
+  ${media.phone`
+      height: 35vh;
+    `}
 `;
 
 const Image = styled.img`
   width:100%;
+  margin-left:auto;
 `;
 
 const Container = styled.div`
@@ -149,14 +167,19 @@ const Landing = () => (
           <Button>Reserve</Button>
         </div>
       </Head>
-    </BgContainer>
     <HubbleImage>
       <Image src={bgImg3} alt="hubble" />
     </HubbleImage>
+    </BgContainer>
+
+
     <Info>
       <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
     </Info>
+
+
     <Crop />
+
 
     <Courses>
       <Course course={preload.courses[0]} />
