@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 import Course from '../components/Course';
 import Menu from '../components/Menu';
+import Footer from '../components/Footer';
 
 
 const Courses = styled.div `
@@ -143,6 +144,8 @@ const Landing = () => (
       <Course course={preload.courses[0]} />
       <Course course={preload.courses[2]} />
     </Courses>
+
+    <Footer />
   </div>
 );
 
