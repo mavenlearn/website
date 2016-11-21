@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import bgImg2 from '../containers/img/bg2.png';
+import bgImg3 from '../containers/img/bg3.png';
 import Menu from '../components/Menu';
 import bgImg from '../containers/img/longBg.jpg';
 import gridLogo from '../containers/img/gridLogo.png';
@@ -8,6 +10,7 @@ import { media } from '../utils/mediaqueries';
 const BgContainer = styled.div`
   position: relative;
 `;
+
 const Head = styled.div`
   padding-bottom: 10vw;
   background-image: url(${bgImg});
@@ -23,6 +26,30 @@ const Head = styled.div`
       height: 35vh;
     `}
 `;
+
+const HubbleImage = styled.div `
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 90vh;
+  z-index:0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  ${media.tablet`
+      height: 40vh;
+    `}
+  ${media.phone`
+      height: 35vh;
+    `}
+`;
+
+const Image = styled.img`
+  width:100%;
+  margin-left:auto;
+`;
+
 
 const Container = styled.div`
   width: 25%;
@@ -80,20 +107,25 @@ const Button = styled.div`
   }
 `;
 
+
 const PageHead = () => (
-  <BgContainer>
-    <Head>
-      <Menu/>
-      <Container>
-        <ImageLogo src={gridLogo}/>
-      </Container>
-      <div>
-        <Title>Become a Software Engineer</Title>
-        <Button>Reserve</Button>
-      </div>
-    </Head>
-  </BgContainer>
+  <div>
+    <BgContainer>
+      <Head>
+        <Menu/>
+        <Container>
+          <ImageLogo src={gridLogo}/>
+        </Container>
+        <div>
+          <Title>Become a Software Engineer</Title>
+          <Button>Reserve</Button>
+        </div>
+      </Head>
+    </BgContainer>
+    <HubbleImage>
+      <Image src={bgImg3} alt="hubble" />
+    </HubbleImage>
+  </div>
 );
 
 export default PageHead;
-
