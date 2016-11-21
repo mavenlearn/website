@@ -4,10 +4,10 @@ import bgImg3 from './img/bg3.png';
 import preload from '../data.json';
 import styled from 'styled-components';
 import Course from '../components/Course';
-import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import InfoText from '../components/InfoText';
 import PageHead from '../components/PageHead';
+import { media } from '../utils/mediaqueries';
 
 
 const Courses = styled.div `
@@ -27,11 +27,22 @@ const HubbleImage = styled.div `
   top:0;
   left:0;
   width: 100%;
+  height: 90vh;
   z-index:0;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  ${media.tablet`
+      height: 40vh;
+    `}
+  ${media.phone`
+      height: 35vh;
+    `}
 `;
 
 const Image = styled.img`
   width:100%;
+  margin-left:auto;
 `;
 
 const Crop = styled.div`
@@ -50,12 +61,10 @@ const Landing = () => (
     </HubbleImage>
     <InfoText text = {preload.infoText} />
     <Crop />
-
     <Courses>
       <Course course={preload.courses[0]} />
       <Course course={preload.courses[2]} />
     </Courses>
-
     <Footer />
   </div>
 );

@@ -8,7 +8,6 @@ import { media } from '../utils/mediaqueries';
 const BgContainer = styled.div`
   position: relative;
 `;
-
 const Head = styled.div`
   padding-bottom: 10vw;
   background-image: url(${bgImg});
@@ -16,6 +15,13 @@ const Head = styled.div`
   text-align: center;
   background-repeat: repeat-x;
   animation: animatedBackground 100s linear infinite;
+  height: 90vh;
+  ${media.tablet`
+      height: 40vh;
+    `}
+  ${media.phone`
+      height: 35vh;
+    `}
 `;
 
 const Container = styled.div`
