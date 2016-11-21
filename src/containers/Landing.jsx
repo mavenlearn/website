@@ -5,10 +5,11 @@ import bgImg3 from './img/bg3.png';
 import gridLogo from './img/gridLogo.png';
 import preload from '../data.json';
 import styled from 'styled-components';
-import { media } from '../utils/mediaqueries';
 import Course from '../components/Course';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
+import InfoText from '../components/InfoText';
+import { media } from '../utils/mediaqueries';
 
 
 const Courses = styled.div `
@@ -104,31 +105,6 @@ const Button = styled.div`
 
 `;
 
-const Info = styled.div`
-  width: 100%;
-  background: white;
-  text-align: center;
-  /*margin-top: 10vw;*/
-  padding: 4vw 9vw;
-  height: auto;
-`;
-
-const InfoParagraph = styled.p`
-  color: grey;
-  font-size: 1.2em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  letter-spacing: 0.1em;
-  line-height: 2em;
-  margin: 0;
-  ${media.tablet`
-    font-size: 1.3em;
-    `}
-  ${media.phone`
-    font-size: 1em;
-    `}
-`;
-
 const Crop = styled.div`
   background-image: url(${bgImg2});
   background-size: 100%;
@@ -154,9 +130,7 @@ const Landing = () => (
     <HubbleImage>
       <Image src={bgImg3} alt="hubble" />
     </HubbleImage>
-    <Info>
-      <InfoParagraph>Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course "Apprentice" that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.</InfoParagraph>
-    </Info>
+    <InfoText text = {preload.infoText} />
     <Crop />
 
     <Courses>
