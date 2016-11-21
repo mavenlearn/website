@@ -60,6 +60,8 @@ const Container = styled.div`
 const ImageLogo = styled.img`
   width: 100%;
   height: auto;
+  position: relative;
+  z-index:1;
 `;
 
 const Title = styled.h1`

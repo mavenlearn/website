@@ -7,6 +7,7 @@ import InfoText from '../components/InfoText';
 import PageHead from '../components/PageHead';
 import { media } from '../utils/mediaqueries';
 
+
 const Courses = styled.div `
   display: flex;
   justify-content: center;
