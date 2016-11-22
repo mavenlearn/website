@@ -36,24 +36,13 @@ a {
   margin-right:0.5rem;
 }
 
-a:hover, a:visited, a:focus {
+a:hover, a:visited, a:focus, button {
   text-decoration: none;
   outline: none;
 }
-
 
 
 /*
 footer
 */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-
-
-
-
-
-
-
-
-

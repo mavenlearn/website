@@ -5,8 +5,7 @@ import Course from '../components/Course';
 import Footer from '../components/Footer';
 import InfoText from '../components/InfoText';
 import PageHead from '../components/PageHead';
-import { media } from '../utils/mediaqueries';
-
+import InfoBlock from '../components/InfoBlock';
 
 const Courses = styled.div `
   display: flex;
@@ -20,11 +19,15 @@ const Courses = styled.div `
   margin-top: 10vh;
 `;
 
-
 const Landing = () => (
   <div>
     <PageHead />
     <InfoText text = {preload.infoText} />
+    <InfoBlock
+      title={preload.infoBlock.title}
+      description= {preload.infoBlock.description}
+      button="learn more"
+      right/>
     <Courses>
       <Course course={preload.courses[0]} />
       <Course course={preload.courses[2]} />
