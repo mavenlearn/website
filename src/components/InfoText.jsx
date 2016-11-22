@@ -4,7 +4,7 @@ import { media } from '../utils/mediaqueries';
 
 const Info = styled.div`
   width: 100%;
-  background: white;
+  background: #F7F7F7;
   text-align: center;
   /*margin-top: 10vw;*/
   padding: 4vw 9vw;

@@ -32,6 +32,8 @@ const Text = styled.div`
   ${media.phone`
     width: 100%;
     padding: 1vw 6vw;
+    margin-bottom: 2vh;
+    text-align: center;
     `}
 `;
 
@@ -68,7 +70,6 @@ const LearnMore = styled.button`
   border-radius: 6px;
   margin-top: 5vh;
   text-transform: uppercase;
-  position: absolute;
   transition: padding .5s ease;
   letter-spacing:0.2em;
 
@@ -76,6 +77,7 @@ const LearnMore = styled.button`
     transition: all .5s ease;
     padding: 17px 34px;
   }
+
 `;
 
 const InfoBlock = (props) => (
