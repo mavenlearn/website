@@ -18,7 +18,7 @@ const Head = styled.div`
   text-align: center;
   background-repeat: repeat-x;
   animation: animatedBackground 100s linear infinite;
-  height: 90vh;
+  height: 95vh;
   ${media.tablet`
       height: 40vh;
     `}
@@ -32,7 +32,7 @@ const HubbleImage = styled.div `
   top:0;
   left:0;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   z-index:0;
   overflow: hidden;
   display: flex;
