@@ -59,9 +59,9 @@ const Footer = () => (
  <FooterContainer>
     <FooterIcons>
       <ul>
-          <SocialIcon><IconLink href="https://www.facebook.com/MavenLearn/"> <Facebook className="fa fa-facebook"></Facebook></IconLink></SocialIcon>
-          <SocialIcon><IconLink href="https://twitter.com/mavenlearn"> <Twitter className="fa fa-twitter"></Twitter></IconLink></SocialIcon>
-          <SocialIcon><IconLink href="https://www.linkedin.com/company/10846926?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10846926%2Cidx%3A2-1-2%2CtarId%3A1476821275536%2Ctas%3Aboolean%20academ"> <Linkedin className="fa fa-linkedin"></Linkedin></IconLink></SocialIcon>
+          <SocialIcon><IconLink href="https://www.facebook.com/MavenLearn/" target="_blank"> <Facebook className="fa fa-facebook"></Facebook></IconLink></SocialIcon>
+          <SocialIcon><IconLink href="https://twitter.com/mavenlearn" target="_blank"> <Twitter className="fa fa-twitter"></Twitter></IconLink></SocialIcon>
+          <SocialIcon><IconLink href="https://www.linkedin.com/company/10846926?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10846926%2Cidx%3A2-1-2%2CtarId%3A1476821275536%2Ctas%3Aboolean%20academ" target="_blank"> <Linkedin className="fa fa-linkedin"></Linkedin></IconLink></SocialIcon>
       </ul>
   </FooterIcons>
 </FooterContainer>

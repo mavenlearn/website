@@ -15,11 +15,23 @@ const CoursesContainer = styled.div `
   margin-top: 10vh;
 `;
 
+const Background = styled.div `
+  text-align: center;
+  background-color: #F7F7F7;
+`;
+
+const Text = styled.h2 `
+  padding-top: 5vh;
+`;
+
 const Courses = () => (
-  <CoursesContainer>
-    <Course course={preload.courses[0]} />
-    <Course course={preload.courses[2]} />
-  </CoursesContainer>
+  <Background>
+    <Text>Courses</Text>
+    <CoursesContainer>
+      <Course course={preload.courses[0]} />
+      <Course course={preload.courses[2]} />
+    </CoursesContainer>
+  </Background>
 );
 
 export default Courses;

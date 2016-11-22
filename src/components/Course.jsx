@@ -11,6 +11,7 @@ const Container = styled.div `
   border-bottom: 2em solid #449AD3;
   box-shadow: 0 2px 10px 0 lightgrey;
   position: relative;
+  background-color: white;
 `;
 
 const CourseText = styled.div `

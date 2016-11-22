@@ -114,7 +114,7 @@ const PageHead = () => (
   <div>
     <BgContainer>
       <Head>
-        <Menu/>
+        <Menu />
         <Container>
           <ImageLogo src={gridLogo}/>
         </Container>
