@@ -106,6 +106,7 @@ const Button = styled.div`
     transition: 1s;
     text-decoration: none;
     background: rgba(255,255,255,10);
+    color: black;
   }
 `;
 
