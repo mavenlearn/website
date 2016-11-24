@@ -110,7 +110,7 @@ const Button = styled.div`
 `;
 
 
-const PageHead = () => (
+let PageHead = () => (
   <div>
     <BgContainer>
       <Head>
@@ -130,4 +130,8 @@ const PageHead = () => (
   </div>
 );
 
+
 export default PageHead;
+
+
+

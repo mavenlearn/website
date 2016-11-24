@@ -66,7 +66,7 @@ const MenuContainer = styled.div`
   left: 3vw;
   cursor: pointer;
   z-index: 100;
-  transition: all .3s ease;
+  transition: all 0.3 ease;
   border: 1px
 
   ${media.tablet`
@@ -80,9 +80,8 @@ const MenuContainer = styled.div`
   &:hover {
     opacity:0.6;
   }
-  &:active {
-    opacity:0;
-    transform: translateY(11px) translateX(11px) rotate(0);
+  &.hidden {
+    display: none;
   }
 `;
 
@@ -94,7 +93,11 @@ const Line1 = styled.span`
   position: absolute;
   top:0;
   left:0;
+  transition: all 0.3 ease;
   transform: translateY(11px) translateX(0) rotate(-55deg);
+  &.active {
+    transform: translateY(20px) rotate(45deg);
+  }
 `;
 
 const Line2 = styled.span`
@@ -105,38 +108,54 @@ const Line2 = styled.span`
   position: absolute;
   top:20px;
   left:0;
-  transition: all .3 ease;
+  transition: all 0.3 ease;
   transform: translateY(11px) translateX(0) rotate(-55deg);
+  &.active {
+    transform: rotate(-45deg);
+  }
 `;
 
-const Menu = (props) => (
-  <div>
-    <MenuContainer>
-      <Line1/>
-      <Line2/>
-    </MenuContainer>
-  {props.open ?
-    <Overlay open>
-      <NavList>
-        <List>
-          <ListItem ><ListLink href="#">Courses</ListLink></ListItem>
-          <ListItem><ListLink href="#">Blog</ListLink></ListItem>
-          <ListItem><ListLink href="#">FAQ</ListLink></ListItem>
-          <ListItem><ListLink href="#">Contact Us</ListLink></ListItem>
-        </List>
-      </NavList>
-    </Overlay> :
-    <Overlay>
-      <NavList>
-        <ul>
-          <li ><a href="#">Courses</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </NavList>
-    </Overlay>}
-</div>
-);
+class Menu extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      clicked: false,
+    }
+
+    this.handleMenuClick = this.handleMenuClick.bind(this);
+  }
+
+  handleMenuClick () {
+    this.setState({clicked: !this.state.clicked});
+  }
+
+  render () { 
+    return (
+      <div>
+        <MenuContainer className={this.state.clicked ? "hidden" : "notHidden"} onClick={this.handleMenuClick}>
+          <Line1/>
+          <Line2/>
+        </MenuContainer>
+       {this.state.clicked &&
+        <Overlay open>
+          <MenuContainer onClick={this.handleMenuClick}>
+            <Line1 className="active"/>
+            <Line2 className="active"/>
+          </MenuContainer>
+          <NavList>
+            <List>
+              <ListItem ><ListLink href="#">Courses</ListLink></ListItem>
+              <ListItem><ListLink href="#">Blog</ListLink></ListItem>
+              <ListItem><ListLink href="#">FAQ</ListLink></ListItem>
+              <ListItem><ListLink href="#">Contact Us</ListLink></ListItem>
+            </List>
+          </NavList>
+        </Overlay>}
+      </div>
+    )
+  }
+
+};
 
 export default Menu;
