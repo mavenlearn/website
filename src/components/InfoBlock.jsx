@@ -12,7 +12,7 @@ import Laptop from '../containers/img/computer.jpg';
 
 const Block = styled.div`
   width: 100%;
-  padding: ${props => props.left ? '4vw 9vw 4vw 0vw' : '4vw 0vw 4vw 0vw'};
+  padding: ${props => props.left ? '4vw 9vw 0vw 0vw' : '4vw 0vw 0vw 0vw'};
   height: auto;
   display:flex;
   align-items: row;
@@ -89,10 +89,10 @@ const InfoBlock = (props) => (
           <Paragraph>{props.description}</Paragraph>
           { props.button && <LearnMore>{props.button}</LearnMore>  }
         </Text>
-        <Image src = {Laptop} right />
+        <Image src={Laptop} right />
       </Block> :
       <Block>
-        <Image src = {Laptop} left />
+        <Image src={Laptop} left />
         <Text left>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>

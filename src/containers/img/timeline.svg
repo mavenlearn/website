@@ -1,0 +1,54 @@
+<svg viewBox="0 0 888 49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+
+  <path class="animate" d="M10.361 22.853h865.88" fill="none" stroke="#282828" stroke-width=".5"/>
+
+  <ellipse cx="225.086" cy="22.853" rx="10.544" ry="10.052" fill="#b8e6ff" fill-opacity=".597"/>
+
+  <ellipse cx="671.757" cy="22.853" rx="10.544" ry="10.052" fill="#e8b8ff" fill-opacity=".597"/>
+
+  <use xlink:href="#a" x="217.619" y="15.626" width="14.934" height="14.455" transform="scale(.99557 .96364)"/>
+
+  <ellipse cx="10.544" cy="22.853" rx="10.544" ry="10.052" fill="#b8ffe1" fill-opacity=".597"/>
+
+  <use xlink:href="#b" x="3.077" y="15.626" width="14.934" height="14.455" transform="scale(.99557 .96364)"/>
+
+  <use xlink:href="#c" x="664.29" y="15.626" width="14.934" height="14.455" transform="scale(.99557 .96364)"/>
+
+  <ellipse cx="876.782" cy="22.853" rx="10.544" ry="10.052" fill="#ffb8cc" fill-opacity=".597"/>
+
+  <use xlink:href="#d" x="869.315" y="15.626" width="14.934" height="14.455" transform="scale(.99557 .96364)"/>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 -117.706 -204)">
+    A
+    <tspan x="162.545px 174.677px 186.809px 199.283px 211.757px 227.561px 239.693px 246.173px 260.645px" y="269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px">
+    PPRENTICE
+    </tspan>
+  </text>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 -117.706 -204)">A<tspan x="162.545px 174.677px 186.809px 199.283px 211.757px 227.561px 239.693px 246.173px 260.645px" y="269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px 269.041px">PPRENTICE</tspan></text>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 284.467 -204.259)">E<tspan x="160.889px 173.687px 185.819px 198.293px 210.767px" y="269.041px 269.041px 269.041px 269.041px 269.041px">XPERT</tspan></text>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 284.467 -204.259)">E<tspan x="160.889px 173.687px 185.819px 198.293px 210.767px" y="269.041px 269.041px 269.041px 269.041px 269.041px">XPERT</tspan></text>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 682.69 -204)">M<tspan x="166.217px 180.347px 192.155px 204.287px 216.761px" y="269.041px 269.041px 269.041px 269.041px 269.041px">ASTER</tspan></text>
+
+  <text x="148.415" y="269.041" font-family="'Avenir-Light','Avenir',sans-serif" font-weight="300" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 682.69 -204)">M<tspan x="166.217px 180.347px 192.155px 204.287px 216.761px" y="269.041px 269.041px 269.041px 269.041px 269.041px">ASTER</tspan></text>
+
+  <text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 -80.729 -222.562)">0</text><text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 -80.729 -222.562)">0</text>
+
+  <g>
+    <text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 127.252 -222.562)">20</text><text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 127.252 -222.562)">20</text>
+  </g>
+  <g>
+    <text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 569.42 -222.562)">100</text><text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 569.42 -222.562)">100</text>
+  </g>
+  <g>
+    <text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="none" transform="matrix(.83594 0 .0146 .79696 760.814 -222.562)">120</text><text x="100.72" y="340.318" font-family="'AvenirNext-Regular','Avenir Next',sans-serif" font-size="18" fill="#737373" transform="matrix(.83594 0 .0146 .79696 760.814 -222.562)">120</text></g>
+    <defs>
+      <image id="a" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhklEQVQokX2TQW/bMAyFP0p0bKdpsuWSHnrdpdj//yVbr7vkkAKFtyXdZjuSuANlrMC2CjJEi3wS3yMln78ZAAZmBgYkIFdbgCig1RYBn76HgWUgGYwGPwvMBhmIwEpgHaATUIEIJiC6AOcClwxDgSHBS/HDVGATYK+wD3ALrIIfoGYedM5wSnC8wlPy/6tBI7CNcMgwNU7lHRAENAO/DIbswC+zgy/ZeUeB2+hUrFJoQ9Uh444hw+nq33Ny7ssYC5hBL/A+wi5CH0BzFemc4XvxdaxUFrVHPJPX/mygnx4f+RpajvGGQTdMsaWIYl4NDChmjCkxTBPH9ELIP3guE/rx4YFTgjLCZYLzBFOB8urmIEIXG/Y3Dffthg8d3CloFK/fNsIu+Dqbp7qMroq2+DupgkW8AfYR7hpXXuRvtQ8Kh8bj1l5nB/fim3PjN63DP+qscF/BvVSw1JbbVn5t8HL8t8MiaPBYFZAItgqwq+BdeKO3a8oColQjggXxNPvwxqviz6v6DWOOu4B7usKYAAAAAElFTkSuQmCC"/>
+      <image id="b" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABjUlEQVQokY3TvW7bMAAE4I8iJVlOHNdekiFr3/9pOnfJkACpgTixLcmS2MFygKJFWy4kCB6P98PwLf8AmZxlGYPJOK8DoiApBARBuGxLV+AoG4xao6NBbzTKoqASLSULURJFIQdCugJ7o3e9nc7OyYfBYJIUbiVbja3aSqWaL0h5ZtzrPTt48uHFyV7vbFSK7lTudTq3Mr6oFKI0yk5GO60nB9/tvTh5138+e6VydJZnCbUoKqTR5Giw03l28OzoVas1uI52tq9R2qit1ZoLM63BXudNb++snfVe3W4N3p296ex1WoNRLU2yi9PZ2WSaQXlmzZjypB16u27v6aNVHH547ZJUCHOOQalQfObpk7kIhUVZ2ZYrj7cbX208uJEiFpI7tbXKnVJv/EXzQrJSWqvdqS0kESkqLCVbtQc3TgZB+M3te417S1u1pXRxOwoa0dZCb0S2VP4h58ajG1sLzaUkUhCk+UBALdmo/9qwJAoXsBCFXInWKvU8/6PbAiG5OBqikAtRKWqk//pVPwGeJ7sprOwQOQAAAABJRU5ErkJggg=="/>
+      <image id="c" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABzUlEQVQokY2Tu24bQQxFD2e4L8mrjTYB5MJtiiD5/y+JkTKNChmwZWgVSburmWGKkZPGCFIOwMs7vDyUw6MBgGGYIWYQDKKBGYiAF1DBRPJbEAB9E0o0CBEZI5wDMofcwAtWKiwUag/qMS+GIPpHOEfkOOP2I7K/IL+uEBKow+4KrG9IfY21JVLmBordHIcZtzvhtkfc0xk3THBNUDjSqiJtJphakoF9KMF5VKIhl4DbX/DbAfdzwD2dkOMVYgLvkLZAzlcwoHSkyoF3KDHlGfdjdt6dcM8XGCOCYQgyhixsFFtX0FXQKEo0ZAzIMCOHGRnmLAwRbmHbCHK8Iocp140Bi4b++P5I/RrothPdfmIxTRQpZae8CUiRMI6c98ZhO3FwL4zPin759hW3O+HTK3p8wQ0DTDOk7IyQw6kr7vqW+uEjnz6vSfdLFC9YrdiqxLoSW5XIHPNXbzNTe6wtsK7KdbWCFxTvYKFYX5Pul3CJIHlGu6VtbUHaLImbJdbXGRjvUPMCjZL6BuaEIdiieGfPC9JDS+obrFHMC4pIRm5VkgSoPLauSP8gDPUggiKIeTEpPdaVpMpDV73Ltv1lm8w28NYA56FwGYb/uKrfXaIIm6Y+b+AAAAAASUVORK5CYII="/>
+      <image id="d" width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABk0lEQVQokY2TzW7bMBCEvyUpS7ItuzIKpIc+Qdv3f5Km16KADy6axIllyPojt4eVnUOLpocBSXBnuTO7FL3/AQCqiiqowpQgJtAE4sA7CA5ErhCAcCPGBFOEboC2h2G0BN7BIoNlDsUCggfvFBEJN+IwQnOBp8Zw7mCaIARYF7CrDFVpybzTYGVGOLVwOML+AX4e7TxOkAXYLOGuhn4EreHdGpwQiAkuvb22/wXfD0ZuLq9lVyW0HSiwCJBn4N1Mbmfy4Wh4OEE3AglwtlegLKBewXYFZU4gRrs8tfBytrUbTa8qSIIOaFp4aV7vYyR8+3pPfmxZ7R9ZP53I+56QIqJ6bSFoNAljNH9ihKSET18+w+EZUgHNBKcO+gRp7rkIiDftmZ9b5WfDvIciM0e3a9icYZis1KvmIoNqCdvK4ooMvCfgnQ3AroIPtTkv/On2XW3YVRbv3UwuZ/IwAQLL4u99/vje4sorWcR0bJamL8+gXv97woIHEQIignfKIoOtM/J29dZsY7MN3BI4MUfL/L9+1W9SKM9tyIqEsgAAAABJRU5ErkJggg=="/>
+    </defs>
+  </svg>

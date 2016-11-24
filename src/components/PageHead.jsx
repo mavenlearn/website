@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import bgImg2 from '../containers/img/bg2.png';
 import bgImg3 from '../containers/img/bg3.png';
 import Menu from '../components/Menu';
 import bgImg from '../containers/img/longBg.jpg';
-import gridLogo from '../containers/img/gridLogo.png';
+import gridLogo from '../containers/img/gridAnimated.svg';
+import logo from '../containers/img/logo.svg';
 import { media } from '../utils/mediaqueries';
 
 const BgContainer = styled.div`
@@ -64,6 +64,25 @@ const ImageLogo = styled.img`
   z-index:1;
 `;
 
+const Logo = styled.img`
+width: 19.4%;
+top: 22vh;
+left: 40.1vw;
+position: absolute;
+z-index: 2;
+
+${media.desktop`
+  top: 15vh;
+  `}
+${media.tablet`
+  top: 12vh;
+  `}
+${media.phone`
+  top: 11.5vh;
+  `}
+`;
+
+
 const Title = styled.h1`
   color: white;
   margin-top:0;
@@ -93,7 +112,7 @@ const Button = styled.div`
   font-size: 2vw;
   letter-spacing: 0.2em;
   margin-top: 1em;
-  border: 0.1em solid #fff;
+  border: 1px solid #fff;
   text-transform: uppercase;
   padding: 0.5em 2em;
   letter-spacing: 0.3em;
@@ -105,6 +124,7 @@ const Button = styled.div`
   &:hover {
     transition: 1s;
     text-decoration: none;
+    color: #001532 ;
     background: rgba(255,255,255,10);
     color: black;
   }
@@ -117,6 +137,7 @@ let PageHead = () => (
       <Head>
         <Menu />
         <Container>
+          <Logo src={logo}/>
           <ImageLogo src={gridLogo}/>
         </Container>
         <div>
