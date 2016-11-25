@@ -3,7 +3,7 @@ import preload from '../data.json';
 import Footer from '../components/Footer';
 import InfoText from '../components/InfoText';
 import PageHead from '../components/PageHead';
-import Courses from '../components/Courses';
+import CourseSection from '../components/CourseSection';
 import InfoBlock from '../components/InfoBlock';
 import Timeline from '../components/Timeline';
 
@@ -17,7 +17,7 @@ const Landing = () => (
       button="learn more"
       right/>
     <Timeline/>
-    <Courses />
+    <CourseSection />
     <Footer />
   </div>
 );

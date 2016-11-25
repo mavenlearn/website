@@ -21,7 +21,6 @@ const CourseText = styled.div `
 const CourseTitle = styled.h2 `
   margin-top: 0;
   margin-bottom: 5px;
-
 `;
 
 const CourseNextClass = styled.h3 `
