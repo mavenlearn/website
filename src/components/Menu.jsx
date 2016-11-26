@@ -81,7 +81,7 @@ const MenuContainer = styled.div`
 `;
 
 const Line1 = styled.span`
-  background:white;
+  background: ${props => props.black ? 'black' : 'white'};
   border:none;
   height: 2px;
   width: 100%;
@@ -96,7 +96,7 @@ const Line1 = styled.span`
 `;
 
 const Line2 = styled.span`
-  background:white;
+  background: ${props => props.black ? 'black' : 'white'};
   border:none;
   height: 2px;
   width: 100%;
