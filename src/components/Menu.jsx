@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
-import { Route, hashHistory } from 'react-router';
+import { Link } from 'react-router';
 
 const NavList = styled.nav`
   animation: fadeInRight .5s ease forwards;
