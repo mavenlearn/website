@@ -1,7 +1,3 @@
-// Menu Component
-// Expected Props:
-//   1. open: a boolean to check if the menu is open or not
-
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';

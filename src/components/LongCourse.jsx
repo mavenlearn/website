@@ -45,7 +45,7 @@ const CourseDescription = styled.p `
 `;
 
 
-const Course = (props) => (
+const LongCourse = (props) => (
   <Container>
     <CourseText>
       <CourseTitle>{props.course.title}</CourseTitle>
@@ -56,4 +56,4 @@ const Course = (props) => (
   </Container>
 );
 
-export default Course
+export default LongCourse;
