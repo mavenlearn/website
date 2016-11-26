@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import { Route, hashHistory } from 'react-router';
 
 const NavList = styled.nav`
   animation: fadeInRight .5s ease forwards;
@@ -62,7 +63,7 @@ const MenuContainer = styled.div`
   cursor: pointer;
   z-index: 100;
   transition: all 0.3 ease;
-  border: 1px
+  border: 1px;
 
   ${media.tablet`
     width: 5vw;
@@ -72,11 +73,12 @@ const MenuContainer = styled.div`
     left: 4vw;
     top: 4vh;
     `}
-  &:hover {
-    opacity:0.6;
-  }
+
   &.hidden {
     display: none;
+  }
+  &:hover {
+    opacity:0.6;
   }
 `;
 
@@ -125,12 +127,12 @@ class Menu extends React.Component {
     this.setState({clicked: !this.state.clicked});
   }
 
-  render () { 
+  render () {
     return (
       <div>
         <MenuContainer className={this.state.clicked ? "hidden" : "notHidden"} onClick={this.handleMenuClick}>
-          <Line1/>
-          <Line2/>
+          <Line1 black={this.props.black} />
+          <Line2 black={this.props.black} />
         </MenuContainer>
        {this.state.clicked &&
         <Overlay open>

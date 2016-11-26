@@ -74,15 +74,15 @@ const LeftColumn = styled.div `
   text-align: right;
   margin-left: 7vw;
   margin-right: 1vw;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
 `;
 
 const RightColumn = styled.div `
   margin-left: 1vw;
   margin-right: 3vw;
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
 `;
 
 

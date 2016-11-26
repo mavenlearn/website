@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Footer from '../components/Footer';
 import LongCourseSection from '../components/LongCourseSection';
 import preload from '../data.json';

@@ -60,7 +60,7 @@ const LongCourseSection = (props) => {
 
   return (
     <Background className={image} >
-      <Menu />
+      <Menu black/>
       {props.first && <Text>Courses</Text>}
       <CoursesContainer>
         <LongCourse course={props.data} />
