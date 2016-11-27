@@ -1,12 +1,14 @@
 {
     "courses": [{
         "title": "Apprentice",
-        "nextClass": "2013–",
-        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
+        "nextClass": "feb. 20. 2017",
+        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
+        "price" : "€650"
     }, {
         "title": "Immersive",
         "nextClass": "2015–",
-        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
+        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
+        "price" : "€9500"
     }, {
         "title": "Workshops",
         "nextClass": "2013–",

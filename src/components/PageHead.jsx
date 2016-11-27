@@ -7,7 +7,7 @@ import gridLogo from '../containers/img/gridAnimated.svg';
 import logo from '../containers/img/logo.svg';
 import { media } from '../utils/mediaqueries';
 
-const BgContainer = styled.div`
+const BgContainer = styled.div `
   position: relative;
 `;
 
