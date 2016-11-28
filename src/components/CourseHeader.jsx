@@ -6,6 +6,9 @@ const Head = styled.div `
   background-image: url(${headerImage});
   background-size: cover;
   height: 95vh;
+  position: absolute;
+  width: 100%;
+  top: -40vh;
 `;
 
 const CourseHeader = () => (
