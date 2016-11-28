@@ -6,6 +6,7 @@ import PageHead from '../components/PageHead';
 import CourseSection from '../components/CourseSection';
 import InfoBlock from '../components/InfoBlock';
 import Timeline from '../components/Timeline';
+import Laptop from '../containers/img/computer.jpg';
 
 const Landing = () => (
   <div>
@@ -14,6 +15,7 @@ const Landing = () => (
     <InfoBlock
       title={preload.infoBlock.title}
       description={preload.infoBlock.description}
+      image={Laptop}
       button="learn more"
       right/>
     <Timeline/>

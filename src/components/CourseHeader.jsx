@@ -1,5 +1,6 @@
 import React from 'react';
 import headerImage from  '../containers/img/headerImage.jpg';
+import Menu from './Menu';
 import styled from 'styled-components';
 
 const Head = styled.div `
@@ -13,6 +14,7 @@ const Head = styled.div `
 
 const CourseHeader = () => (
   <div>
+    <Menu black/>
     <Head>
     </Head>
   </div>

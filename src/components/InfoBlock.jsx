@@ -89,10 +89,10 @@ const InfoBlock = (props) => (
           <Paragraph>{props.description}</Paragraph>
           { props.button && <LearnMore>{props.button}</LearnMore>  }
         </Text>
-        <Image src={Laptop} right />
+        <Image src={props.image} right />
       </Block> :
       <Block>
-        <Image src={Laptop} left />
+        <Image src={props.image} left />
         <Text left>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>

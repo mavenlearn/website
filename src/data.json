@@ -4,19 +4,73 @@
         "nextClass": "feb. 20. 2017",
         "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
         "price": "€650 + IVA",
-        "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!"
+        "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
+        "what" : [{
+            "title": "Introduction to Programming",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Conditionals, Loops, Functions, Arrays & Objects",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+        }, {
+            "title": "Recursion",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Object-oriented Programming in JS",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Higher Order Functions",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Scope and Closures",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }]
     }, {
         "title": "Immersive",
-        "nextClass": "2015–",
+        "nextClass": "July 2017",
         "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
         "price" : "€9500",
-        "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!"
+        "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
+        "what" : [{
+            "title": "Data Structures",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Inheritance Patterns",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+        }, {
+            "title": "Front-end Frameworks",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Servers and Node.js",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Databases",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Projects",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }]
     }, {
-        "title": "Workshops",
-        "nextClass": "2013–",
+        "title": "TIB Workshop",
+        "nextClass": "Upon Request",
         "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
         "price": "Discussed upon enrollment",
-        "who": "MBA Students"
+        "who": "MBA Students",
+        "what" : [{
+            "title": "Agile and Scrum",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Computer Science Terminology",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+        }, {
+            "title": "A Guide through a Fullstack Application",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Version Control",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }, {
+            "title": "Introduction to Programming",
+            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+        }]
     }],
 
     "infoText": "Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
