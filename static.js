@@ -4,6 +4,6 @@
   "routes": {
     "/": "src/containers/Landing.jsx",
     "/courses": "src/containers/Courses.jsx",
-    "/coursePage": "src/containers/CoursePage.jsx"
+    "/coursepage": "src/containers/CoursePage.jsx"
   }
 }

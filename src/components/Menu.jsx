@@ -142,10 +142,10 @@ class Menu extends React.Component {
           </MenuContainer>
           <NavList>
             <List>
-              <ListItem ><ListLink href="#">Courses</ListLink></ListItem>
-              <ListItem><ListLink href="#">Blog</ListLink></ListItem>
-              <ListItem><ListLink href="#">FAQ</ListLink></ListItem>
-              <ListItem><ListLink href="#">Contact Us</ListLink></ListItem>
+              <Link to='/courses'><ListItem ><ListLink>Courses</ListLink></ListItem></Link>
+              <ListItem><ListLink>Blog</ListLink></ListItem>
+              <ListItem><ListLink>FAQ</ListLink></ListItem>
+              <ListItem><ListLink>Contact Us</ListLink></ListItem>
             </List>
           </NavList>
         </Overlay>}
