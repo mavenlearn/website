@@ -60,15 +60,15 @@ const List = styled.ul`
 
 
 const Footer = () => (
- <FooterContainer>
+  <FooterContainer>
     <FooterIcons>
       <List>
           <SocialIcon><IconLink href="https://www.facebook.com/MavenLearn/" target="_blank"> <Facebook className="fa fa-facebook"></Facebook></IconLink></SocialIcon>
-          <SocialIcon><IconLink href="https://twitter.com/mavenlearn" target="_blank"> <Twitter className="fa fa-twitter"></Twitter></IconLink></SocialIcon>
+          <SocialIcon><IconLink href="https://twitter.com/maven_learn" target="_blank"> <Twitter className="fa fa-twitter"></Twitter></IconLink></SocialIcon>
           <SocialIcon><IconLink href="https://www.linkedin.com/company/maven-learn?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf" target="_blank"> <Linkedin className="fa fa-linkedin"></Linkedin></IconLink></SocialIcon>
       </List>
-  </FooterIcons>
-</FooterContainer>
+    </FooterIcons>
+  </FooterContainer>
 );
 
 export default Footer;

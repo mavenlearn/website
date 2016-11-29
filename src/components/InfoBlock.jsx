@@ -43,6 +43,9 @@ const Image = styled.img`
   ${media.phone`
     display: none;
     `}
+  width: 45%;
+  height: 57vh;
+  margin-bottom: 10vh;
 `;
 
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
-import preload from '../data.json';
 
 const Container = styled.div `
   flex: 1;
@@ -115,9 +114,9 @@ const CourseInfo = (props) => (
       </LeftColumn>
       <RightColumn>
         <InfoTitle>Upcoming Classes:</InfoTitle>
-        <Info>{preload.courses[0].nextClass}</Info>
+        <Info>{props.course.nextClass}</Info>
         <InfoTitle>Price for Tuition:</InfoTitle>
-        <Info>{preload.courses[0].price}</Info>
+        <Info>{props.course.price}</Info>
       </RightColumn>
     </CourseText>
     <Line />

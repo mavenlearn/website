@@ -9,7 +9,9 @@ const App = () => (
     <div className="App">
       <Route path='/' component={Landing} />
       <Route path='/courses' component={Courses} />
-      <Route path='/coursepage' component={CoursePage} />
+      <Route path='/apprentice' component={CoursePage} />
+      <Route path='/immersive' component={CoursePage} />
+      <Route path='/workshop' component={CoursePage} />
     </div>
   </Router>
 );

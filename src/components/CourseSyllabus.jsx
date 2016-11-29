@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 import SyllabusText from './SyllabusText';
-import preload from '../data.json';
 
 const Info = styled.div`
   width: 100%;
@@ -71,7 +70,7 @@ const CourseSyllabus = (props) => (
   <Info>
     <Container>
       <Title>what you will learn</Title>
-      {preload.courses[0].what
+      {props.course.what
         .map(subject => (
           <SyllabusText title={subject.title} text={subject.description} />
         ))

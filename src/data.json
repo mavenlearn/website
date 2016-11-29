@@ -29,7 +29,7 @@
         "nextClass": "July 2017",
         "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
         "price" : "€9500",
-        "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
+        "who": "You need to know some stuff",
         "what" : [{
             "title": "Data Structures",
             "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
@@ -50,7 +50,7 @@
             "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
         }]
     }, {
-        "title": "TIB Workshop",
+        "title": "Workshop",
         "nextClass": "Upon Request",
         "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
         "price": "Discussed upon enrollment",
