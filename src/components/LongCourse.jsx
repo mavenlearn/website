@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import { Link } from 'react-router';
 
 const Container = styled.div `
   flex: 1;
@@ -86,20 +87,31 @@ const RightColumn = styled.div `
 `;
 
 
-const LongCourse = (props) => (
-  <Container>
-    <CourseText>
-      <LeftColumn>
-        <CourseTitle>{props.course.title}</CourseTitle>
-        <CourseNextClass>Next Class: {props.course.nextClass}</CourseNextClass>
-        <Button>Learn More</Button>
-      </LeftColumn>
-      <RightColumn>
-        <CourseDescription className="course-description">{props.course.description}</CourseDescription>
-      </RightColumn>
-    </CourseText>
-  </Container>
-);
+const LongCourse = (props) => {
+  let link;
+  if (props.course.title === "Apprentice") {
+    link = "/apprentice";
+  } else if (props.course.title === "Immersive") {
+    link = "/immersive";
+  } else if (props.course.title === "Workshop") {
+    link = "/workshop";
+  }
+
+  return (
+    <Container>
+      <CourseText>
+        <LeftColumn>
+          <CourseTitle>{props.course.title}</CourseTitle>
+          <CourseNextClass>Next Class: {props.course.nextClass}</CourseNextClass>
+          <Link to={link}><Button>Learn More</Button></Link>
+        </LeftColumn>
+        <RightColumn>
+          <CourseDescription className="course-description">{props.course.description}</CourseDescription>
+        </RightColumn>
+      </CourseText>
+    </Container>
+  );
+}
 
 export default LongCourse;
 
