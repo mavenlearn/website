@@ -41,6 +41,23 @@ a:hover, a:visited, a:focus, button {
   outline: none;
 }
 
+.menu {
+  color:lightblue;
+  padding: 10px;
+  margin-top: 10px;
+  transition: all .5 ease;
+}
+
+.menu:hover {
+  transition: all .5 ease;
+  color: white;
+  border: 1px solid white;
+}
+
+/*.menu:visited {
+  color: white;
+}*/
+
 /*
 footer
 */

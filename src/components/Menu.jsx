@@ -142,7 +142,8 @@ class Menu extends React.Component {
           </MenuContainer>
           <NavList>
             <List>
-              <Link to='/courses'><ListItem ><ListLink>Courses</ListLink></ListItem></Link>
+              <ListItem><Link to="/" className="menu">Home</Link></ListItem>
+              <ListItem><Link to="/courses" className="menu">Courses</Link></ListItem>
               <ListItem><ListLink>Blog</ListLink></ListItem>
               <ListItem><ListLink>FAQ</ListLink></ListItem>
               <ListItem><ListLink>Contact Us</ListLink></ListItem>
