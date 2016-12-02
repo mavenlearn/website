@@ -2,74 +2,77 @@
     "courses": [{
         "title": "Apprentice",
         "nextClass": "feb. 20. 2017",
-        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
+        "description": "Maven's Apprentice is a 4 week part-time course geared towards beginners with little to no experience in programming. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
         "price": "€650 + IVA",
         "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
+        "why" : "At the end of the course, you will have explored foundational concepts in computer science, you will start thinking like software engineers by solving interesting problems using computer programming, and have a good sense of whether or not programming may be a career you would like to pursue",
         "what" : [{
             "title": "Introduction to Programming",
             "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
         }, {
             "title": "Conditionals, Loops, Functions, Arrays & Objects",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+            "description": "Learn how to use if/ else statements, while loops and for loops, how to package your code and deal with structured data" 
         }, {
             "title": "Recursion",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Learn how to build up powerful control structures without using anything other than Functions"
         }, {
             "title": "Object-oriented Programming in JS",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Revisit Functions and Arrays with the knowledge that everything in JavaScript is an object"
         }, {
             "title": "Higher Order Functions",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Learn about callbacks by using functions as arguments to other functions"
         }, {
             "title": "Scope and Closures",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Deep dive into variable access within the JavaScript program"
         }]
     }, {
         "title": "Immersive",
-        "nextClass": "July 2017",
-        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
+        "nextClass": "Summer 2017",
+        "description": "Maven's Immersive program is a 12 week bootcamp where students will develop across the full-stack using front-end JavaScript frameworks like Angular and React, server development with Node and databases with SQL and Mongo",
         "price" : "€9500",
-        "who": "You need to know some stuff",
+        "who": "Maven Immersive takes students who already have intermediate JavaScript knowledge. Students should be comfortable with Computer Science fundamentals as well as know how to apply functional programming using JavaScript. The best way to prepare for Immersive is by going through Apprentice",
+        "why": "Immersive takes students who already have intermediate JavaScript knowledge to a mid to senior level Software Engineer fully equipped and prepared for a full time professional Software Engineering position",
         "what" : [{
             "title": "Data Structures",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Deepen your understanding of important Computer Science concepts by learning how to write and implement the most common Data Structures and how it affects Time Complexity"
         }, {
             "title": "Inheritance Patterns",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+            "description": "Learn advanced concepts related to the Object Oriented Programming, a widely used concept among programming languages" 
         }, {
             "title": "Front-end Frameworks",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Use Backbone, Angular 2 and React to create interactive user friendly interfaces for your applicatoins"
         }, {
             "title": "Servers and Node.js",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Learn how to use Node and Express to serve up resources to your application"
         }, {
             "title": "Databases",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Solidify your knowledge on the importance of data persistence and use SQL and DBMS's like Postgress, MySql and Mongo to do so"
         }, {
             "title": "Projects",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
         }]
     }, {
         "title": "Workshop",
         "nextClass": "Upon Request",
-        "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.",
+        "description": "The Tech in Business workshop is designed to give MBA students an introduction to the technology insdustry and teach them imporant Software Engineering principles in order to make it easier for them to work alongside programmers.",
         "price": "Discussed upon enrollment",
-        "who": "MBA Students",
+        "who": "The TIB Workshop curriculum is built to be useful to those who are interested in joining tech startups as well as large tech enterpresises post MBA",
+        "why": "After the workshop, participants will know enough to be able to understand basic Software Engineering terminology, understand how to manage techical products and application development projects as well as learn the key differences between the different types of developers and the technology frameworks and tools they use on a daily basis. This will in turn give the students a siginificant competitive advantage while marketing themselves to techology companies despite not having a technical backgournd",
         "what" : [{
             "title": "Agile and Scrum",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "description": "Learn the basics of managing software product development and complex projects in general by delving into the agile methodology, the most popular product managment system used among tech companies"
         }, {
-            "title": "Computer Science Terminology",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web" 
+            "title": "Developer Workflow",
+            "description": "Understand how Software Engineers collaborate and magnage their codebases as well as the technologies they use to do so" 
         }, {
-            "title": "A Guide through a Fullstack Application",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "title": "Computer Scinece Terminology",
+            "description": "Learn some Computer Science jargon to be able to communicate more effectively with developers while learning some imporant CS concepts"
         }, {
-            "title": "Version Control",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "title": "APIs, AJAX and REST",
+            "description": "Learn what APIs are, how they work, why they are important and how businesses can use them to their advantage"
         }, {
-            "title": "Introduction to Programming",
-            "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
+            "title": "Guide through a Fullstack Application",
+            "description": "Walk through all the requirments for building a fullstack application by learning the different technologies used and their tradeoffs and by understanding different developer positions and the most ocmmon tools used to build rich applications"
         }]
     }],
 
@@ -80,3 +83,7 @@
       "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
     }
 }
+
+
+
+

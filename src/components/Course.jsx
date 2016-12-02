@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import { Link } from 'react-router';
 
 const Container = styled.div `
   flex: 1;
@@ -51,7 +52,7 @@ const Course = (props) => (
       <CourseTitle>{props.course.title}</CourseTitle>
       <CourseNextClass>Next Class: {props.course.nextClass}</CourseNextClass>
       <CourseDescription className="course-description">{props.course.description}</CourseDescription>
-      <a>Learn More ></a>
+      <Link to={props.course.title === "Apprentice" ? "/apprentice" : "/workshop"}>Learn More ></Link>
     </CourseText>
   </Container>
 );

@@ -46,6 +46,10 @@ const Image = styled.img`
   width: 45%;
   height: 100%;
   margin-bottom: 10vh;
+
+  &.rock {
+    margin-top: 30vh;
+  }
 `;
 
 
@@ -95,7 +99,7 @@ const InfoBlock = (props) => (
         <Image src={props.image} right />
       </Block> :
       <Block>
-        <Image src={props.image} left />
+        <Image src={props.image} left className={props.image === '/static/media/rock.e023367a.png' ? 'rock' : 'nothing'}/>
         <Text left>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>

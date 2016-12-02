@@ -40,7 +40,7 @@ const CoursePage = () => {
       <InfoTitleText text={section.who} />
       <InfoBlock
         title="why take this course"
-        description={preload.infoBlock.description}
+        description={section.why}
         image={img}
         button="Enroll"/>
       <CourseSyllabus course={section} />
