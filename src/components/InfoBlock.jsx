@@ -44,7 +44,7 @@ const Image = styled.img`
     display: none;
     `}
   width: 45%;
-  height: 57vh;
+  height: 100%;
   margin-bottom: 10vh;
 `;
 

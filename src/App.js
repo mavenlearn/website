@@ -5,7 +5,7 @@ import Courses from './containers/Courses';
 import CoursePage from './containers/CoursePage';
 
 const App = () => (
-  <Router history={browserHistory}>
+  <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <div className="App">
       <Route path='/' component={Landing} />
       <Route path='/courses' component={Courses} />

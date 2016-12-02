@@ -42,6 +42,7 @@ const ListLink = styled.a`
 `;
 
 const Overlay = styled.div`
+  text-align: center;
   position: fixed;
   background: black;
   top: 0;
