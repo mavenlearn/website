@@ -130,7 +130,6 @@ const Button = styled.div`
   }
 `;
 
-
 let PageHead = () => (
   <div>
     <BgContainer>
@@ -150,7 +149,6 @@ let PageHead = () => (
     </HubbleImage>
   </div>
 );
-
 
 export default PageHead;
 

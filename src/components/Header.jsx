@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import LogoImage from '../containers/img/logoMaven4.png'
-import LogoImage2 from '../containers/img/gridLogoBlack.png'
+import LogoImage from '../containers/img/logoMaven4.png';
+import LogoImage2 from '../containers/img/gridLogoBlack.png';
+import LogoImage3 from '../containers/img/logoMaven2.png';
 import { Link } from 'react-router';
 
 const Container = styled.nav`
@@ -18,6 +19,9 @@ const Container = styled.nav`
   padding: 8px 30px;
   text-transform: uppercase;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
+  background-color: white;
+  opacity: 0.7;
+  background-color: rgba(0,0,0,.7);
 `;
 
 const Logo = styled.img`
@@ -47,11 +51,14 @@ const Button = styled.div`
     background: black;
     color: white;
   }
+
+  color: white;
+  border: 1px solid white;
 `;
 
 const Header = () => (
   <Container className='nav'>
-    <Link className='headLogo' to='/'><Logo src={LogoImage}></Logo></Link>
+    <Link className='headLogo' to='/'><Logo src={LogoImage3}></Logo></Link>
     <ul className='navList'>
       <li><Link className='headLink' to='/courses'>Courses</Link></li>
       <li><Link className='headLink' to='/apprentice'>Apprentice</Link></li>
@@ -63,3 +70,5 @@ const Header = () => (
 );
 
 export default Header;
+
+

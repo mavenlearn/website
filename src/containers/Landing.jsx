@@ -20,7 +20,7 @@ const Landing = () => (
       image={Laptop}
       button="learn more"
       right/>
-    <Timeline/>
+    <Timeline />
     <CourseSection />
     <Footer />
   </div>

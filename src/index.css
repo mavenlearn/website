@@ -10,6 +10,12 @@ body {
   to { background-position: 100% 0; }
 }
 
+/*@keyframes animatedBackground {
+  from { transform: translateX(0); }
+  to { transform: translateX(-187%); }
+}*/
+
+
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -57,6 +63,7 @@ a:hover, a:visited, a:focus, button {
 .headLink {
   color: black;
   font-size: 1em;
+  color: white;
 }
 
 .navList {
