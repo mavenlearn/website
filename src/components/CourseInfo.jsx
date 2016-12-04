@@ -107,7 +107,7 @@ const Line = styled.hr `
 
 const CourseInfo = (props) => (
   <Container>
-    <CourseTitle>description</CourseTitle>
+    <CourseTitle>{props.course.title}</CourseTitle>
     <CourseText>
       <LeftColumn>
         <CourseDescription className="course-description">{props.course.description}</CourseDescription>

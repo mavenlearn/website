@@ -54,9 +54,32 @@ a:hover, a:visited, a:focus, button {
   border: 1px solid white;
 }
 
+.headLink {
+  color: black;
+  font-size: 1em;
+}
+
+.navList {
+  margin-left: auto;
+}
+
+.headLogo {
+  margin-left: 2vw;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
 /*.menu:visited {
   color: white;
 }*/
+
 
 /*
 footer

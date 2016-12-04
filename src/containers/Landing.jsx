@@ -7,9 +7,11 @@ import CourseSection from '../components/CourseSection';
 import InfoBlock from '../components/InfoBlock';
 import Timeline from '../components/Timeline';
 import Laptop from '../containers/img/computer.jpg';
+import Header from '../components/Header';
 
 const Landing = () => (
   <div>
+    <Header />
     <PageHead />
     <InfoText text={preload.infoText} />
     <InfoBlock

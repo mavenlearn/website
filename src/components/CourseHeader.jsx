@@ -13,7 +13,6 @@ const Head = styled.div `
 
 const CourseHeader = (props) => (
   <div>
-    <Menu black/>
     <Head image={props.image}>
     </Head>
   </div>

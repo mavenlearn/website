@@ -135,7 +135,6 @@ let PageHead = () => (
   <div>
     <BgContainer>
       <Head>
-        <Menu />
         <Container>
           <Logo src={logo}/>
           <ImageLogo src={gridLogo}/>

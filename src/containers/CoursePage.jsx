@@ -14,6 +14,7 @@ import headerImage1 from  '../containers/img/headerImage.jpg';
 import headerImage2 from  '../containers/img/headerImage2.jpeg';
 import headerImage3 from  '../containers/img/headerImage3.jpeg';
 import rock from  '../containers/img/rock.png';
+import Header from '../components/Header';
 
 
 const CoursePage = () => {
@@ -35,6 +36,7 @@ const CoursePage = () => {
   }
   return (
     <div>
+      <Header />
       <CourseHeader image={headImg} />
       <CourseInfo course={section} />
       <InfoTitleText text={section.who} />
