@@ -29,12 +29,13 @@ const Logo = styled.img`
   /*height: 15vh;*/
 `;
 
-const Button = styled.div`
+const Button = styled.a`
   color: black;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
   /*font-size: 1.5vw;*/
+  font-size: 1vw;
   letter-spacing: 0.2em;
   border: 1px solid black;
   text-transform: uppercase;
@@ -50,6 +51,9 @@ const Button = styled.div`
     text-decoration: none;
     background: black;
     color: white;
+
+    background: white;
+    color: black;
   }
 
   color: white;
@@ -64,7 +68,7 @@ const Header = () => (
       <li><Link className='headLink' to='/apprentice'>Apprentice</Link></li>
       <li><Link className='headLink' to='/immersive'>Immersive</Link></li>
       <li><Link className='headLink' to='/workshop'>Workshop</Link></li>
-      <li><Button>Apply Now</Button></li>
+      <li><Button href='https://mavevlearn.typeform.com/to/WdIlPD' target='_blank'>Apply Now</Button></li>
     </ul>
   </Container>
 );

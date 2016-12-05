@@ -104,7 +104,7 @@ const Title = styled.h1`
     `}
 `;
 
-const Button = styled.div`
+const Button = styled.a`
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -140,7 +140,7 @@ let PageHead = () => (
         </Container>
         <div>
           <Title>Become a Software Engineer</Title>
-          <Button>Reserve</Button>
+          <Button href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
         </div>
       </Head>
     </BgContainer>
