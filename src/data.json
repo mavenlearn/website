@@ -5,8 +5,8 @@
         "description": "Maven's Apprentice is a 4 week part-time course geared towards beginners with little to no experience in programming. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
         "price": "€650 + IVA",
         "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
-        "why" : "At the end of the course, you will have explored foundational concepts in computer science, you will start thinking like software engineers by solving interesting problems using computer programming, and have a good sense of whether or not programming may be a career you would like to pursue",
-        "what" : [{
+        "why": "At the end of the course, you will have explored foundational concepts in computer science, you will start thinking like software engineers by solving interesting problems using computer programming, and have a good sense of whether or not programming may be a career you would like to pursue",
+        "what": [{
             "title": "Introduction to Programming",
             "description": "Learn the fundementals of programming and build simple programs using JavaScript, the most popular language on the web"
         }, {
@@ -24,7 +24,8 @@
         }, {
             "title": "Scope and Closures",
             "description": "Deep dive into variable access within the JavaScript program"
-        }]
+        }],
+        "url": "https://mavevlearn.typeform.com/to/WdIlPD"
     }, {
         "title": "Immersive",
         "nextClass": "Summer 2017",
@@ -80,7 +81,7 @@
 
     "infoBlock": {
       "title": "Javascript Curriculum",
-      "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices.A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
+      "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
     }
 }
 

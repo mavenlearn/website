@@ -44,7 +44,8 @@ const CoursePage = () => {
         title="why take this course"
         description={section.why}
         image={img}
-        button="Enroll"/>
+        button="Enroll"
+        url={section.url}/>
       <CourseSyllabus course={section} />
       <Footer />
     </div>

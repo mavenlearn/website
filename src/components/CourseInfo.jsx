@@ -59,7 +59,7 @@ const CourseDescription = styled.p `
     `}
 `;
 
-const Button = styled.div`
+const Button = styled.a`
   color: black;
   cursor: pointer;
   display: inline-block;
@@ -78,12 +78,17 @@ const Button = styled.div`
   margin-bottom: 4vw;
   margin-top: 1vw;
 
+  &:visited {
+    color: black;
+  }
+
   &:hover {
     transition: 1s;
     text-decoration: none;
     background: black;
     color: white;
   }
+
 `;
 
 const LeftColumn = styled.div `
@@ -120,7 +125,7 @@ const CourseInfo = (props) => (
       </RightColumn>
     </CourseText>
     <Line />
-    <Button>Enroll</Button>
+    <Button href={props.course.url} target="_blank">Enroll</Button>
   </Container>
 );
 

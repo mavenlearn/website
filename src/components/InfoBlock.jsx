@@ -69,20 +69,33 @@ const Paragraph = styled.p`
     `}
 `;
 
-const LearnMore = styled.button`
-  border: 1px solid #449ad3;
-  background: #449ad3;
-  color: white;
-  padding: 15px 30px;
-  border-radius: 6px;
-  margin-top: 5vh;
+const Button = styled.a`
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.5vw;
+  letter-spacing: 0.2em;
+  border: 1px solid black;
   text-transform: uppercase;
-  transition: padding .5s ease;
-  letter-spacing:0.2em;
+  padding: 0.5em 2em;
+  letter-spacing: 0.3em;
+  transition: 1s;
+  background: rgba(255,255,255,0);
+  /*position:relative;*/
+  z-index:1;
+  margin-bottom: 4vw;
+  margin-top: 5vh;
+
+  &:visited {
+    color: black;
+  }
 
   &:hover {
-    transition: all .5s ease;
-    padding: 17px 34px;
+    transition: 1s;
+    text-decoration: none;
+    background: black;
+    color: white;
   }
 
 `;
@@ -94,7 +107,7 @@ const InfoBlock = (props) => (
         <Text right>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>
-          { props.button && <LearnMore>{props.button}</LearnMore>  }
+          { props.button && <Button>{props.button}</Button>  }
         </Text>
         <Image src={props.image} right />
       </Block> :
@@ -103,7 +116,7 @@ const InfoBlock = (props) => (
         <Text left>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>
-          { props.button && <LearnMore>{props.button}</LearnMore> }
+          { props.button && <Button href={props.url} target="_blank">{props.button}</Button> }
         </Text>
       </Block>}
   </div>

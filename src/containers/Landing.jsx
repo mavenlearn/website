@@ -18,7 +18,6 @@ const Landing = () => (
       title={preload.infoBlock.title}
       description={preload.infoBlock.description}
       image={Laptop}
-      button="learn more"
       right/>
     <Timeline />
     <CourseSection />

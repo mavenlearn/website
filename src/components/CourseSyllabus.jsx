@@ -38,7 +38,7 @@ const Container = styled.div`
   margin-left: 10vw;
 `;
 
-const Button = styled.div`
+const Button = styled.a`
   color: black;
   cursor: pointer;
   display: inline-block;
@@ -58,12 +58,17 @@ const Button = styled.div`
   margin-bottom: 2vw;
   margin-top: 4vw;
 
+  &:visited {
+    color: black;
+  }
+
   &:hover {
     transition: 1s;
     text-decoration: none;
     background: black;
     color: white;
   }
+
 `;
 
 const CourseSyllabus = (props) => (
@@ -76,7 +81,7 @@ const CourseSyllabus = (props) => (
         ))
       }
     </Container>
-    <Button>Enroll</Button>
+    <Button href={props.course.url} target="_blank">Enroll</Button>
   </Info>
 );
 

@@ -121,6 +121,10 @@ const Button = styled.a`
   position:relative;
   z-index:1;
 
+  &:visited {
+    color: #fff;
+  }
+
   &:hover {
     transition: 1s;
     text-decoration: none;
@@ -128,6 +132,7 @@ const Button = styled.a`
     background: rgba(255,255,255,10);
     color: black;
   }
+
 `;
 
 let PageHead = () => (

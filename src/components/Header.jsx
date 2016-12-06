@@ -26,7 +26,7 @@ const Container = styled.nav`
 
 const Logo = styled.img`
   height: 4vh;
-  /*height: 15vh;*/
+  margin-left: 2vw;
 `;
 
 const Button = styled.a`
@@ -46,6 +46,10 @@ const Button = styled.a`
   position:relative;
   z-index:1;
 
+  &:visited {
+    color: white;
+  }
+
   &:hover {
     transition: 1s;
     text-decoration: none;
@@ -56,20 +60,34 @@ const Button = styled.a`
     color: black;
   }
 
+
   color: white;
   border: 1px solid white;
 `;
 
+const ListItem = styled.li`
+  display: inline-block;
+  margin: 0 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+`;
+
+const List = styled.ul`
+  margin-left: auto;
+`;
+
 const Header = () => (
-  <Container className='nav'>
-    <Link className='headLogo' to='/'><Logo src={LogoImage3}></Logo></Link>
-    <ul className='navList'>
-      <li><Link className='headLink' to='/courses'>Courses</Link></li>
-      <li><Link className='headLink' to='/apprentice'>Apprentice</Link></li>
-      <li><Link className='headLink' to='/immersive'>Immersive</Link></li>
-      <li><Link className='headLink' to='/workshop'>Workshop</Link></li>
-      <li><Button href='https://mavevlearn.typeform.com/to/WdIlPD' target='_blank'>Apply Now</Button></li>
-    </ul>
+  <Container>
+    <Link to='/'><Logo src={LogoImage3}></Logo></Link>
+    <List>
+      <ListItem><Link className='headLink' to='/courses'>Courses</Link></ListItem>
+      <ListItem><Link className='headLink' to='/apprentice'>Apprentice</Link></ListItem>
+      <ListItem><Link className='headLink' to='/immersive'>Immersive</Link></ListItem>
+      <ListItem><Link className='headLink' to='/workshop'>Workshop</Link></ListItem>
+      <ListItem><Button href='https://mavevlearn.typeform.com/to/WdIlPD' target='_blank'>Apply Now</Button></ListItem>
+    </List>
   </Container>
 );
 
