@@ -75,6 +75,15 @@ a:hover, a:visited, a:focus, button {
 }
 
 /*
+Modal
+*/
+.modal-footer {
+  background-color: grey;
+  padding: 4vw;
+  text-align: center;
+}
+
+/*
 footer
 */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
