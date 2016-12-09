@@ -21,32 +21,40 @@ const CoursePage = () => {
   let img;
   let section;
   let headImg;
+  let button;
+  let modal;
   if (browserHistory.getCurrentLocation().pathname === '/apprentice') {
     img = Coder;
     section = preload.courses[0];
     headImg = headerImage1;
+    button = true;
+    modal = false;
   } else if (browserHistory.getCurrentLocation().pathname === '/immersive') {
     img = Code;
     section = preload.courses[1];
     headImg = headerImage2;
+    button = false;
+    modal = true;
   } else if (browserHistory.getCurrentLocation().pathname === '/workshop') {
     img = rock;
     section = preload.courses[2];
     headImg = headerImage3;
+    button = false;
+    modal = false;
   }
   return (
     <div>
       <Header />
       <CourseHeader image={headImg} />
-      <CourseInfo course={section} />
+      <CourseInfo course={section} modal={modal}/>
       <InfoTitleText text={section.who} />
       <InfoBlock
         title="why take this course"
         description={section.why}
         image={img}
-        button="Enroll"
+        button={button ? 'Enroll' : false}
         url={section.url}/>
-      <CourseSyllabus course={section} />
+      <CourseSyllabus button={button} course={section} />
       <Footer />
     </div>
   );

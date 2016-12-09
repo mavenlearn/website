@@ -81,7 +81,7 @@ const CourseSyllabus = (props) => (
         ))
       }
     </Container>
-    <Button href={props.course.url} target="_blank">Enroll</Button>
+    {props.button && <Button href={props.course.url} target="_blank">Enroll</Button>}
   </Info>
 );
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
+import { Modal } from 'react-bootstrap';
+import LogoImage3 from '../containers/img/logoMaven2.png';
 
 const Container = styled.div `
   flex: 1;
@@ -109,25 +111,74 @@ const Line = styled.hr `
   color: dimgrey;
 `;
 
+const ModalTitle = styled.h2 `
+  text-align: center;
+  font-size: 4em;
+`;
 
-const CourseInfo = (props) => (
-  <Container>
-    <CourseTitle>{props.course.title}</CourseTitle>
-    <CourseText>
-      <LeftColumn>
-        <CourseDescription className="course-description">{props.course.description}</CourseDescription>
-      </LeftColumn>
-      <RightColumn>
-        <InfoTitle>Upcoming Classes:</InfoTitle>
-        <Info>{props.course.nextClass}</Info>
-        <InfoTitle>Price for Tuition:</InfoTitle>
-        <Info>{props.course.price}</Info>
-      </RightColumn>
-    </CourseText>
-    <Line />
-    <Button href={props.course.url} target="_blank">Enroll</Button>
-  </Container>
-);
+const ModalLogo = styled.img`
+  height: 5vh;
+`;
+
+const Section = styled.div `
+  margin: 5vw;
+  text-align: center;
+`;
+
+const SectionInfo = styled.p `
+  color: black;
+`;
+
+const CourseInfo = React.createClass({
+  getInitialState() {
+    return { showModal: false };
+  },
+
+  close() {
+    this.setState({ showModal: false });
+  },
+
+  open() {
+    this.setState({ showModal: true });
+  },
+
+  render() {
+    return (
+      <Container>
+        <CourseTitle>{this.props.course.title}</CourseTitle>
+        <CourseText>
+          <LeftColumn>
+            <CourseDescription className="course-description">{this.props.course.description}</CourseDescription>
+          </LeftColumn>
+          <RightColumn>
+            <InfoTitle>Upcoming Classes:</InfoTitle>
+            <Info>{this.props.course.nextClass}</Info>
+            <InfoTitle>Price for Tuition:</InfoTitle>
+            <Info>{this.props.course.price}</Info>
+          </RightColumn>
+        </CourseText>
+        <Line />
+        <Button onClick={this.props.modal ? this.open : false} href={this.props.course.url} target="_blank">Enroll</Button>
+
+        <Modal show={this.state.showModal} onHide={this.close}>
+          <Modal.Header closeButton>
+            <ModalTitle>Immersive</ModalTitle>
+          </Modal.Header>
+          <Modal.Body>
+            <Section>
+              <SectionInfo>Our Immersive offerring will start in summer 2017</SectionInfo>
+              <SectionInfo>Enrollment will be open soon</SectionInfo>
+            </Section>
+          </Modal.Body>
+          <Modal.Footer>
+            <ModalLogo src={LogoImage3}></ModalLogo>
+          </Modal.Footer>
+        </Modal>
+
+      </Container>
+    ) 
+  }
+}); 
 
 export default CourseInfo;
 
