@@ -74,10 +74,11 @@
         }, {
             "title": "Guide through a Fullstack Application",
             "description": "Walk through all the requirments for building a fullstack application by learning the different technologies used and their tradeoffs and by understanding different developer positions and the most ocmmon tools used to build rich applications"
-        }]
+        }],
+        "url": "https://mavevlearn.typeform.com/to/HKmdiy"
     }],
 
-    "infoText": "Maven is a coding bootcamp that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
+    "infoText": "Maven is a coding bootcamp based in Barcelona that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
 
     "infoBlock": {
       "title": "Javascript Curriculum",

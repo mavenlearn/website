@@ -1,6 +1,6 @@
 import React from 'react';
 import preload from '../data.json';
-import { browserHistory } from 'react-router';
+import { browserHistory, Link } from 'react-router';
 import CourseHeader from '../components/CourseHeader';
 import CourseInfo from '../components/CourseInfo';
 import Footer from '../components/Footer';
@@ -21,43 +21,64 @@ const CoursePage = () => {
   let img;
   let section;
   let headImg;
-  let button;
+  let infoButton;
+  let whyButton;
+  let whatButton;
   let modal;
+  let blockTitle;
+  let injectText = '';
   if (browserHistory.getCurrentLocation().pathname === '/apprentice') {
     img = Coder;
     section = preload.courses[0];
     headImg = headerImage1;
-    button = true;
+    infoButton = 'Enroll'; 
+    whyButton = 'Enroll'; 
+    whatButton = 'Enroll';
+    blockTitle = 'why take this course';
     modal = false;
   } else if (browserHistory.getCurrentLocation().pathname === '/immersive') {
     img = Code;
     section = preload.courses[1];
     headImg = headerImage2;
-    button = false;
+    infoButton = 'Enroll';
+    blockTitle = 'why take this course';
     modal = true;
+    injectText =  <Link to='/apprentice' className='injectedText'>Apprentice</Link>;
   } else if (browserHistory.getCurrentLocation().pathname === '/workshop') {
     img = rock;
     section = preload.courses[2];
     headImg = headerImage3;
-    button = false;
+    infoButton = 'Request Workshop'; 
+    whyButton = 'Request Workshop'; 
+    whatButton = 'Request Workshop';
+    blockTitle = 'why take this workshop';
     modal = false;
   }
   return (
     <div>
       <Header />
       <CourseHeader image={headImg} />
-      <CourseInfo course={section} modal={modal}/>
-      <InfoTitleText text={section.who} />
+      <CourseInfo 
+        course={section} 
+        modal={modal}
+        button={infoButton}
+      />
+      <InfoTitleText text={section.who} injectText={injectText}/>
       <InfoBlock
-        title="why take this course"
+        title={blockTitle}
         description={section.why}
         image={img}
-        button={button ? 'Enroll' : false}
-        url={section.url}/>
-      <CourseSyllabus button={button} course={section} />
+        button={whyButton}
+        url={section.url}
+      />
+      <CourseSyllabus 
+        button={whatButton} 
+        course={section} 
+      />
       <Footer />
     </div>
   );
 }
 
 export default CoursePage;
+

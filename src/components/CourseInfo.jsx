@@ -158,7 +158,7 @@ const CourseInfo = React.createClass({
           </RightColumn>
         </CourseText>
         <Line />
-        <Button onClick={this.props.modal ? this.open : false} href={this.props.course.url} target="_blank">Enroll</Button>
+        <Button onClick={this.props.modal ? this.open : false} href={this.props.course.url} target="_blank">{this.props.button}</Button>
 
         <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>
