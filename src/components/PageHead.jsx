@@ -9,22 +9,18 @@ import { media } from '../utils/mediaqueries';
 
 const BgContainer = styled.div `
   position: relative;
+  overflow: hidden;
+  text-align: center;
 `;
 
 const Head = styled.div`
-  padding-bottom: 10vw;
-  background-image: url(${bgImg});
-  background-size: cover;
-  text-align: center;
-  background-repeat: repeat-x;
+  width: 300%;
+  background: url(${bgImg}) repeat-x;
   animation: animatedBackground 100s linear infinite;
-  height: 95vh;
-  ${media.tablet`
-      height: 40vh;
-    `}
-  ${media.phone`
-      height: 35vh;
-    `}
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
 `;
 
 const HubbleImage = styled.div `
@@ -32,17 +28,10 @@ const HubbleImage = styled.div `
   top:0;
   left:0;
   width: 100%;
-  height: 95vh;
   z-index:0;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
-  ${media.tablet`
-      height: 40vh;
-    `}
-  ${media.phone`
-      height: 35vh;
-    `}
 `;
 
 const Image = styled.img`
@@ -52,9 +41,13 @@ const Image = styled.img`
 
 
 const Container = styled.div`
-  width: 25%;
+  width: 27%;
   margin: 0 auto;
   padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 `;
 
 const ImageLogo = styled.img`
@@ -106,12 +99,14 @@ const Title = styled.h1`
 
 const Button = styled.a`
   color: #fff;
+  width: 20%;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
-  font-size: 2vw;
+  font-size: 1.5vw;
   letter-spacing: 0.2em;
-  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-top:1em;
   border: 1px solid #fff;
   text-transform: uppercase;
   padding: 0.5em 2em;
@@ -138,24 +133,19 @@ const Button = styled.a`
 let PageHead = () => (
   <div>
     <BgContainer>
-      <Head>
-        <Container>
-          <Logo src={logo}/>
-          <ImageLogo src={gridLogo}/>
-        </Container>
-        <div>
-          <Title>Become a Software Engineer</Title>
-          <Button href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
-        </div>
-      </Head>
+      <Head />
+      <Container>
+        <Logo src={logo}/>
+        <ImageLogo src={gridLogo}/>
+      </Container>
+      <Title>Become a Software Engineer</Title>
+      <Button href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
+      <HubbleImage>
+        <Image src={bgImg3} alt="hubble" />
+      </HubbleImage>
     </BgContainer>
-    <HubbleImage>
-      <Image src={bgImg3} alt="hubble" />
-    </HubbleImage>
+
   </div>
 );
 
 export default PageHead;
-
-
-

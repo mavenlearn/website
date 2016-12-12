@@ -10,24 +10,19 @@ const Container = styled.nav`
   z-index: 10;
   position: fixed;
   display: flex;
-  /*justify-content: space-between;*/
-  /*text-align: right;*/
   top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #fafafa;
-  padding: 8px 30px;
+  padding: 8px 8px;
   text-transform: uppercase;
-  box-shadow: 0 1px 2px 0 rgba(0,0,0,.25);
-  background-color: white;
-  opacity: 0.7;
-  background-color: rgba(0,0,0,.7);
+  align-items: center;
+  padding-top: 3vh;
+  background-color: #494B57;
 `;
 
 const Logo = styled.img`
-  height: 4vh;
-  margin-left: 2vw;
+  height: 3vh;
 `;
 
 const Button = styled.a`
@@ -36,7 +31,7 @@ const Button = styled.a`
   display: inline-block;
   font-weight: 400;
   /*font-size: 1.5vw;*/
-  font-size: 1vw;
+  font-size: 1rem;
   letter-spacing: 0.2em;
   border: 1px solid black;
   text-transform: uppercase;
@@ -209,10 +204,8 @@ const Header = React.createClass({
           </Modal.Footer>
         </Modal>
       </Container>
-    )  
+    )
   }
 });
 
 export default Header;
-
-
