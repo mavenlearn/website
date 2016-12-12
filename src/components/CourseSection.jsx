@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Course from './Course';
 import preload from '../data.json';
-import { media } from '../utils/mediaqueries';
 
 const CoursesContainer = styled.div `
   display: flex;

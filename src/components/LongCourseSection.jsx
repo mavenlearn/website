@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import Course from './Course';
-import Menu from './Menu';
+// import Course from './Course';
+// import Menu from './Menu';
 import LongCourse from './LongCourse';
-import preload from '../data.json';
-import { media } from '../utils/mediaqueries';
+// import preload from '../data.json';
+// import { media } from '../utils/mediaqueries';
 import firstCourse from '../containers/img/firstCourse.jpeg';
 import secondCourse from '../containers/img/secondCourse.jpeg';
 import thirdCourse from '../containers/img/thirdCourse.jpg';
@@ -69,4 +69,3 @@ const LongCourseSection = (props) => {
 };
 
 export default LongCourseSection;
-

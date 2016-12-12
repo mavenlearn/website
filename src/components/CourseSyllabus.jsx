@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { media } from '../utils/mediaqueries';
+// import { media } from '../utils/mediaqueries';
 import SyllabusText from './SyllabusText';
 
 const Info = styled.div`
@@ -10,22 +10,6 @@ const Info = styled.div`
   /*margin-top: 10vw;*/
   padding: 4vw 9vw;
   height: auto;
-`;
-
-const InfoParagraph = styled.p`
-  color: grey;
-  font-size: 1.2em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  letter-spacing: 0.1em;
-  line-height: 2em;
-  margin: 0;
-  ${media.tablet`
-    font-size: 1.3em;
-    `}
-  ${media.phone`
-    font-size: 1em;
-    `}
 `;
 
 const Title = styled.h2`
@@ -76,8 +60,8 @@ const CourseSyllabus = (props) => (
     <Container>
       <Title>what you will learn</Title>
       {props.course.what
-        .map(subject => (
-          <SyllabusText title={subject.title} text={subject.description} />
+        .map((subject,index) => (
+          <SyllabusText key={index} title={subject.title} text={subject.description} />
         ))
       }
     </Container>
@@ -86,4 +70,3 @@ const CourseSyllabus = (props) => (
 );
 
 export default CourseSyllabus;
-

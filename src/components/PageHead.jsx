@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import bgImg3 from '../containers/img/bg3.png';
-import Menu from '../components/Menu';
+// import Menu from '../components/Menu';
 import bgImg from '../containers/img/longBg.jpg';
 import gridLogo from '../containers/img/gridAnimated.svg';
 import logo from '../containers/img/logo.svg';

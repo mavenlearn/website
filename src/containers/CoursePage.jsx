@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 import InfoTitleText from '../components/InfoTitleText';
 import InfoBlock from '../components/InfoBlock';
 import CourseSyllabus from '../components/CourseSyllabus';
-import Laptop from '../containers/img/computer.jpg';
 import Coder from '../containers/img/coder.jpg';
 import Code from '../containers/img/code.jpeg';
 import headerImage1 from  '../containers/img/headerImage.jpg';
@@ -31,8 +30,8 @@ const CoursePage = () => {
     img = Coder;
     section = preload.courses[0];
     headImg = headerImage1;
-    infoButton = 'Enroll'; 
-    whyButton = 'Enroll'; 
+    infoButton = 'Enroll';
+    whyButton = 'Enroll';
     whatButton = 'Enroll';
     blockTitle = 'why take this course';
     modal = false;
@@ -48,8 +47,8 @@ const CoursePage = () => {
     img = rock;
     section = preload.courses[2];
     headImg = headerImage3;
-    infoButton = 'Request Workshop'; 
-    whyButton = 'Request Workshop'; 
+    infoButton = 'Request Workshop';
+    whyButton = 'Request Workshop';
     whatButton = 'Request Workshop';
     blockTitle = 'why take this workshop';
     modal = false;
@@ -58,8 +57,8 @@ const CoursePage = () => {
     <div>
       <Header />
       <CourseHeader image={headImg} />
-      <CourseInfo 
-        course={section} 
+      <CourseInfo
+        course={section}
         modal={modal}
         button={infoButton}
       />
@@ -71,9 +70,9 @@ const CoursePage = () => {
         button={whyButton}
         url={section.url}
       />
-      <CourseSyllabus 
-        button={whatButton} 
-        course={section} 
+      <CourseSyllabus
+        button={whatButton}
+        course={section}
       />
       <Footer />
     </div>
@@ -81,4 +80,3 @@ const CoursePage = () => {
 }
 
 export default CoursePage;
-

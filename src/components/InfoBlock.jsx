@@ -8,7 +8,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
-import Laptop from '../containers/img/computer.jpg';
+// import Laptop from '../containers/img/computer.jpg';
 
 const Block = styled.div`
   width: 100%;
