@@ -9,7 +9,7 @@ const Container = styled.div `
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 3%;
-  box-shadow: 0 2px 10px 0 #585858;
+  box-shadow: 0 2px 10px 0 rgba(88, 88, 88, 0.3);
   position: relative;
   background-color: white;
 `;
@@ -34,6 +34,9 @@ const CourseNextClass = styled.h3 `
 const CourseDescription = styled.p `
   margin: 0;
   margin-bottom: 10px;
+  font-size: 1.5 rem;
+  font-weight: 100;
+  line-height: 3rem; 
   ${media.desktop`
     font-size: 1em;
     `}

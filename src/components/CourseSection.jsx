@@ -23,6 +23,7 @@ const Background = styled.div `
 
 const Text = styled.h2 `
   padding-top: 5vh;
+  margin-top:0;
 `;
 
 const CourseSection = () => (

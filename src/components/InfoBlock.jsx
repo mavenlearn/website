@@ -45,7 +45,7 @@ const Image = styled.img`
     `}
   width: 45%;
   height: 100%;
-  margin-bottom: 10vh;
+  margin-bottom: 0vh;
 
   &.rock {
     margin-top: 30vh;

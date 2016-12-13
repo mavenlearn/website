@@ -33,6 +33,9 @@ const HubbleImage = styled.div `
   overflow: hidden;
   display: flex;
   align-items: flex-end;
+  ${media.phone`
+    top: 11.5vh;
+    `}
 `;
 
 const Image = styled.img`
@@ -60,20 +63,9 @@ const ImageLogo = styled.img`
 
 const Logo = styled.img`
 width: 19.4%;
-top: 22vh;
 left: 40.1vw;
 position: absolute;
 z-index: 2;
-
-${media.desktop`
-  top: 15vh;
-  `}
-${media.tablet`
-  top: 12vh;
-  `}
-${media.phone`
-  top: 11.5vh;
-  `}
 `;
 
 
