@@ -12,7 +12,6 @@ const SocialList = styled.ul`
 
 const Facebook = styled.i `
   padding:10px 14px;
-  padding-left: 0;
   transition: .5s;
   background-color: white;
 
