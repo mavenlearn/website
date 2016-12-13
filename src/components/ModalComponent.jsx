@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import LogoImage3 from '../containers/img/logoMaven2.png';
 import { Modal } from 'react-bootstrap';
 
+const ModalContainer = styled.div`
+
+`;
 const SocialList = styled.ul`
   padding: 0;
 `;
@@ -48,31 +51,29 @@ const SocialIcon = styled.li `
 `;
 
 const IconLink = styled.a `
-  color: lightgrey;
   text-decoration: none;
-  color: black;
+  color: rgb(73,75,87);
 `;
 
 const ModalTitle = styled.h2 `
   text-align: center;
-  font-size: 4em;
+  font-size: 3em;
 `;
 
 const Section = styled.div `
   margin-bottom: 5vh;
-  margin-left: 3vw;
 
   &:last-child {
     margin-bottom: 0;
   }
 `;
 
-const SectionTitle = styled.h2 `
-  font-size: 2.5em;
+const SectionTitle = styled.h4 `
 `;
 
 const SectionInfo = styled.p `
-  color: black;
+  color: grey;
+  font-size: 1.5rem;
 `;
 
 const ModalLogo = styled.img`
@@ -81,7 +82,7 @@ const ModalLogo = styled.img`
 
 const ModalComponent = () => {
   return (
-    <div>
+    <ModalContainer>
       <Modal.Header closeButton>
         <ModalTitle>Contact Us</ModalTitle>
       </Modal.Header>
@@ -110,7 +111,7 @@ const ModalComponent = () => {
       <Modal.Footer>
         <ModalLogo src={LogoImage3}></ModalLogo>
       </Modal.Footer>
-    </div>
+    </ModalContainer>
   );
 };
 
