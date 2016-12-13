@@ -11,7 +11,7 @@ const Container = styled.div `
   margin-left: 4vw;
   margin-bottom: 3%
   margin-top: 45vh;
-  box-shadow: 0 2px 10px 0 black;
+  box-shadow: 0 2px 10px 0 rgba(88, 88, 88, 0.23);
   position: relative;
   background-color: white;
 `;
@@ -19,12 +19,16 @@ const Container = styled.div `
 const CourseText = styled.div `
   padding: 30px;
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 3rem;
 `;
 
 const CourseTitle = styled.h2 `
-  font-weight: bold;
-  color: black;
+  font-family: 'ChronicleHairline', Georgia, serif;
+  letter-spacing: normal;
+  font-style: italic;
+  color: #424242;
   text-transform: lowercase;
   font-size: 7vw;
   margin-left: 6vw;
@@ -108,8 +112,8 @@ const RightColumn = styled.div `
 const Line = styled.hr `
   margin-left: 6vw;
   width: 10%;
-  background-color: dimgrey;
-  color: dimgrey;
+  background-color: grey;
+  color: grey;
 `;
 
 const ModalTitle = styled.h2 `
@@ -144,22 +148,24 @@ const CourseInfo = React.createClass({
   },
 
   render() {
+    const { title, description, nextClass, price, url } = this.props.course;
+    const { modal, button } = this.props;
     return (
       <Container>
-        <CourseTitle>{this.props.course.title}</CourseTitle>
+        <CourseTitle>{title}</CourseTitle>
         <CourseText>
           <LeftColumn>
-            <CourseDescription className="course-description">{this.props.course.description}</CourseDescription>
+            <CourseDescription className="course-description">{description}</CourseDescription>
           </LeftColumn>
           <RightColumn>
             <InfoTitle>Upcoming Classes:</InfoTitle>
-            <Info>{this.props.course.nextClass}</Info>
+            <Info>{nextClass}</Info>
             <InfoTitle>Price for Tuition:</InfoTitle>
-            <Info>{this.props.course.price}</Info>
+            <Info>{price}</Info>
           </RightColumn>
         </CourseText>
         <Line />
-        <Button onClick={this.props.modal ? this.open : false} href={this.props.course.url} target="_blank">{this.props.button}</Button>
+        <Button onClick={modal ? this.open : false} href={url} target="_blank">{button}</Button>
 
         <Modal show={this.state.showModal} onHide={this.close}>
           <Modal.Header closeButton>

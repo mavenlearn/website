@@ -9,7 +9,7 @@ const Container = styled.div `
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 3%;
-  box-shadow: 0 2px 10px 0 lightgrey;
+  box-shadow: 0 2px 10px 0 #585858;
   position: relative;
   background-color: white;
 `;
@@ -26,8 +26,10 @@ const CourseTitle = styled.h2 `
 
 const CourseNextClass = styled.h3 `
   margin-top:0;
-  padding: 0.2vw 0vh;
-  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
+  padding: 0vw 0vh;
+  color: grey;
   ${media.phone`
     display:none
     `}
@@ -49,6 +51,7 @@ const CourseDescription = styled.p `
 
 const Button = styled.div`
   color: black;
+  margin-top: 1rem;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -114,4 +117,3 @@ const LongCourse = (props) => {
 }
 
 export default LongCourse;
-

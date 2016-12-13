@@ -5,11 +5,30 @@ body {
   font-weight: 300;
 }
 
+/*Add Chronicle Hairline Roman */
+
+@font-face {
+  font-family: 'ChronicleHairline';
+  src: url('fonts/ChronicleHairline-Roman.otf')
+       format('opentype');
+}
+
+/*Add Chronicle Hairline Italic */
+@font-face {
+  font-family: 'ChronicleHairline';
+  src: url('fonts/ChronicleHairline-Italic.otf')
+       format('opentype');
+  font-style: italic;
+}
+
+/* Keyframes for animatedBackground */
+
 @keyframes animatedBackground {
   from {   transform: translateX(0); }
   to { transform: translateX(-10%); }
 }
 
+/* headers */
 
 h2 {
   font-family: 'Raleway', sans-serif;

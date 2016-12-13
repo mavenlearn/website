@@ -9,7 +9,7 @@ const Container = styled.div `
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 3%;
-  box-shadow: 0 2px 10px 0 lightgrey;
+  box-shadow: 0 2px 10px 0 #585858;
   position: relative;
   background-color: white;
 `;
