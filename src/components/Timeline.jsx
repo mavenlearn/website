@@ -19,16 +19,17 @@ const Title = styled.h2`
 const TimeLine = styled.div`
   width:100%;
   display: flex;
-  align-items: center;
   justify-content:center;
 `;
 
 const Box = styled.div`
   width: 20%;
+  flex-wrap: wrap;
   height: 20vw;
   margin-top: 7vh;
   margin-bottom: 10vh;
   background-color:${props => props.one ? '#3A3E4A' : props.two ? '#444A5A' : props.three ? '#3A3E4A' : 'rgb(43, 45, 51)'} ;
+  ${''/* order: ${props => props.one ? 1 : props.two ? 2 : props.three ? 3 : 0};*/}
 
 `;
 
@@ -58,7 +59,7 @@ const Img  = styled.img`
 
 const Timeline = () => (
   <Container>
-    <Title>Engineer Roadmap</Title>
+    <Title>Maven Roadmap</Title>
     <TimeLine>
       <Box one>
         <BoxTitle>Apprentice 0-20</BoxTitle>
@@ -74,10 +75,10 @@ const Timeline = () => (
         <BoxList>Best Practices</BoxList>
       </Box>
       <Box three>
-        <BoxTitle>Apprentice 0-20</BoxTitle>
-        <BoxList>Basic Javascript</BoxList>
-        <BoxList>Debugging</BoxList>
-        <BoxList>Problem Solving Strategies</BoxList>
+        <BoxTitle>Master 100-120</BoxTitle>
+        <BoxList>Machine Learning</BoxList>
+        <BoxList>Augmented/Virtual Reality</BoxList>
+        <BoxList>Advanced System architecture</BoxList>
       </Box>
     </TimeLine>
   </Container>

@@ -25,6 +25,8 @@ const CourseTitle = styled.h2 `
 
 const CourseNextClass = styled.h3 `
   margin-top:0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
   padding: 0.2vw 0vh;
   ${media.phone`
     display:none
@@ -34,9 +36,9 @@ const CourseNextClass = styled.h3 `
 const CourseDescription = styled.p `
   margin: 0;
   margin-bottom: 10px;
-  font-size: 1.5 rem;
+  font-size: 1.7rem;
   font-weight: 100;
-  line-height: 3rem; 
+  line-height: 3rem;
   ${media.desktop`
     font-size: 1em;
     `}
@@ -55,7 +57,7 @@ const Course = (props) => (
       <CourseTitle>{props.course.title}</CourseTitle>
       <CourseNextClass>Next Class: {props.course.nextClass}</CourseNextClass>
       <CourseDescription className="course-description">{props.course.description}</CourseDescription>
-      <Link to={props.course.title === "Apprentice" ? "/apprentice" : "/workshop"}>Learn More ></Link>
+      <Link className="button" to={props.course.title === "Apprentice" ? "/apprentice" : "/workshop"}>Learn More </Link>
     </CourseText>
   </Container>
 );

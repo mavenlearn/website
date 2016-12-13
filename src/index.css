@@ -40,9 +40,10 @@ h2 {
 }
 
 h3 {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
-  font-weight: 300;
-  color: #449AD3;
+  font-weight: 500;
+  color: dimgrey;
 }
 
 h4 {
@@ -63,6 +64,30 @@ a {
   font-size: 1.5em;
   transition: 1s ease;
   margin-right:0.5rem;
+}
+
+a.button {
+  color: black;
+  margin-top: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: normal;
+  border: 1px solid black;
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  letter-spacing: 0.2em;
+  transition: 1s;
+  background: rgba(255,255,255,0);
+  position:relative;
+  z-index:1;
+}
+a.button:hover {
+  transition: 1s;
+  text-decoration: none;
+  background: black;
+  color: white;
 }
 
 a:hover, a:visited, a:focus, button {
