@@ -16,6 +16,7 @@ const BgContainer = styled.div `
 const Head = styled.div`
   width: 300%;
   background: url(${bgImg}) repeat-x;
+  background-size: contain;
   animation: animatedBackground 100s linear infinite;
   position:absolute;
   top: 0;

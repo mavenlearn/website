@@ -79,10 +79,9 @@ const ModalLogo = styled.img`
   height: 5vh;
 `;
 
-const ModalComponent = (props) => {
-  const { showModal, close } = props;
+const ModalComponent = () => {
   return (
-    <Modal show={showModal} onHide={close}>
+    <div>
       <Modal.Header closeButton>
         <ModalTitle>Contact Us</ModalTitle>
       </Modal.Header>
@@ -111,7 +110,7 @@ const ModalComponent = (props) => {
       <Modal.Footer>
         <ModalLogo src={LogoImage3}></ModalLogo>
       </Modal.Footer>
-    </Modal>
+    </div>
   );
 };
 

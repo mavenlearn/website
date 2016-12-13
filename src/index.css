@@ -55,10 +55,17 @@ a:hover, a:visited, a:focus, button {
   border: 1px solid white;
 }
 
+.navLogo {
+  margin-right:auto;
+  padding-left: 3vw;
+}
+
 .headLink {
-  color: black;
-  font-size: 1em;
+  font-size: 0.8em;
+  letter-spacing: .2rem;
+  font-family: 'Raleway', sans-serif;
   color: white;
+  margin-right: 1vw;
 }
 
 .headLink:visited {
