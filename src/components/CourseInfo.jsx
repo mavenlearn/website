@@ -11,7 +11,7 @@ const Container = styled.div `
   margin-left: 4vw;
   margin-bottom: 3%
   margin-top: 45vh;
-  box-shadow: 0 2px 10px 0 lightgrey;
+  box-shadow: 0 2px 10px 0 black;
   position: relative;
   background-color: white;
 `;
@@ -19,6 +19,7 @@ const Container = styled.div `
 const CourseText = styled.div `
   padding: 30px;
   display: flex;
+  font-size: 1.8rem;
 `;
 
 const CourseTitle = styled.h2 `
@@ -174,11 +175,9 @@ const CourseInfo = React.createClass({
             <ModalLogo src={LogoImage3}></ModalLogo>
           </Modal.Footer>
         </Modal>
-
       </Container>
-    ) 
+    )
   }
-}); 
+});
 
 export default CourseInfo;
-

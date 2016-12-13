@@ -16,6 +16,7 @@ const Container = styled.nav`
 const Navigation = styled.nav`
   z-index: 10;
   position: fixed;
+  top:0;
   height: 7vh;
   width: 100%;
   text-transform: uppercase;
