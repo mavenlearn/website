@@ -131,8 +131,8 @@ let PageHead = () => (
         <Logo src={logo}/>
         <ImageLogo src={gridLogo}/>
       </Container>
-      <Title>Become a Software Engineer</Title>
-      <Button href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
+      <Title className="animated fadeInUp">Become a Software Engineer</Title>
+      <Button className="animated fadeInUp" href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
       <HubbleImage>
         <Image src={bgImg3} alt="hubble" />
       </HubbleImage>

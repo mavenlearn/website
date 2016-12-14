@@ -152,15 +152,15 @@ const CourseInfo = React.createClass({
     const { modal, button } = this.props;
     return (
       <Container>
-        <CourseTitle>{title}</CourseTitle>
+        <CourseTitle className="animated fadeInUp">{title}</CourseTitle>
         <CourseText>
           <LeftColumn>
             <CourseDescription className="course-description">{description}</CourseDescription>
           </LeftColumn>
           <RightColumn>
-            <InfoTitle>Upcoming Classes:</InfoTitle>
+            <InfoTitle className="animated fadeInUp">Upcoming Classes:</InfoTitle>
             <Info>{nextClass}</Info>
-            <InfoTitle>Price for Tuition:</InfoTitle>
+            <InfoTitle className="animated fadeInUp">Price for Tuition:</InfoTitle>
             <Info>{price}</Info>
           </RightColumn>
         </CourseText>

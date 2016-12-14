@@ -61,7 +61,7 @@ const LongCourseSection = (props) => {
   return (
     <Background className={image} >
       {props.first && <Text>Courses</Text>}
-      <CoursesContainer>
+      <CoursesContainer className="animated fadeInUp">
         <LongCourse course={props.data} />
       </CoursesContainer>
     </Background>

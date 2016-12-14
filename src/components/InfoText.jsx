@@ -29,7 +29,7 @@ const InfoParagraph = styled.p`
 
 const InfoText = (props) => (
   <Info>
-    <InfoParagraph>{props.text}</InfoParagraph>
+    <InfoParagraph className="animated fadeInUp">{props.text}</InfoParagraph>
   </Info>
 );
 

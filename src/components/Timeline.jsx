@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import timeline from '../containers/img/timeline.svg';
 import roadmap from '../containers/img/Roadmap.png';
 
 
@@ -50,11 +49,6 @@ const BoxList = styled.p`
   font-size: 1.3rem;
   text-align: left;
 `;
-const Img  = styled.img`
-  stroke-dasharray: 1000;
-  stroke-dashoffset:0;
-
-}`;
 
 
 const Timeline = () => (

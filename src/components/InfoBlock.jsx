@@ -103,7 +103,7 @@ const Button = styled.a`
 const InfoBlock = (props) => (
   <div>
     {props.right ?
-      <Block>
+      <Block className="animated fadeInUp">
         <Text right>
           { props.title && <Title>{props.title}</Title> }
           <Paragraph>{props.description}</Paragraph>
@@ -111,7 +111,7 @@ const InfoBlock = (props) => (
         </Text>
         <Image src={props.image} right />
       </Block> :
-      <Block>
+      <Block className="animated fadeInUp">
         <Image src={props.image} left className={props.image === '/static/media/rock.e023367a.png' ? 'rock' : 'nothing'}/>
         <Text left>
           { props.title && <Title>{props.title}</Title> }
