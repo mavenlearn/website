@@ -62,10 +62,10 @@ const ImageLogo = styled.img`
 `;
 
 const Logo = styled.img`
-width: 19.4%;
-left: 40.1vw;
-position: absolute;
-z-index: 2;
+  width: 19.4%;
+  left: 40.1vw;
+  position: absolute;
+  z-index: 2;
 `;
 
 
