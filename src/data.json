@@ -1,6 +1,7 @@
 {
     "homePage": {
         "titleTag": "Maven Coding Bootcamp",
+        "metaDescription" : "Maven Landing",
         "infoText": "Maven is a coding bootcamp based in Barcelona that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
         "infoBlock": {
           "title": "Javascript Curriculum",
@@ -9,7 +10,8 @@
     },
 
     "coursesPage": {
-        "titleTag": "Courses"
+        "titleTag": "Courses",
+        "metaDescription": "Maven Courses"
     },
 
     "courses": [{
@@ -39,7 +41,8 @@
             "description": "Deep dive into variable access within the JavaScript program"
         }],
         "url": "https://mavevlearn.typeform.com/to/WdIlPD",
-        "titleTag": "Apprentice Beginner's Course"
+        "titleTag": "Apprentice Beginner's Course",
+        "metaDescription": "Maven Apprentice"
     }, {
         "title": "Immersive",
         "nextClass": "Summer 2017",
@@ -66,7 +69,8 @@
             "title": "Projects",
             "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
         }],
-        "titleTag": "Maven Immersive"
+        "titleTag": "Maven Immersive",
+        "metaDescription": "Maven Immersive"
     }, {
         "title": "Workshop",
         "nextClass": "Upon Request",
@@ -91,7 +95,8 @@
             "description": "Walk through all the requirments for building a fullstack application by learning the different technologies used and their tradeoffs and by understanding different developer positions and the most ocmmon tools used to build rich applications"
         }],
         "url": "https://mavevlearn.typeform.com/to/HKmdiy",
-        "titleTag": "TIB Workshop"
+        "titleTag": "TIB Workshop",
+        "metaDescription": "Maven Workshop"
     }]
 }
 

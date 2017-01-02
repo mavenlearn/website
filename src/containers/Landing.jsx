@@ -12,7 +12,12 @@ import Helmet from 'react-helmet';
 
 const Landing = () => (
   <div>
-    <Helmet title={preload.homePage.titleTag} />
+    <Helmet 
+      title={preload.homePage.titleTag} 
+      meta={[
+        {name: "description", content: preload.homePage.metaDescription}
+      ]}
+    />
     <Header />
     <PageHead />
     <InfoText text={preload.homePage.infoText} />
@@ -20,7 +25,8 @@ const Landing = () => (
       title={preload.homePage.infoBlock.title}
       description={preload.homePage.infoBlock.description}
       image={Laptop}
-      right />
+      right 
+    />
     <Timeline />
     <CourseSection />
     <Footer />

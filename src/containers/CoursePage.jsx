@@ -57,7 +57,12 @@ const CoursePage = () => {
   }
   return (
     <div>
-      <Helmet title={section.titleTag} />
+      <Helmet 
+        title={section.titleTag} 
+        meta={[
+          {name: "description", content: section.metaDescription}
+        ]}
+      />
       <Header />
       <CourseHeader image={headImg} />
       <CourseInfo

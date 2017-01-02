@@ -8,7 +8,12 @@ import Helmet from 'react-helmet';
 
 const Courses = () => (
   <div>
-    <Helmet title={preload.coursesPage.titleTag} />
+    <Helmet 
+      title={preload.coursesPage.titleTag} 
+      meta={[
+        {name: "description", content: preload.coursesPage.metaDescription}
+      ]}
+    />
     <Header />
     <LongCourseSection first data={preload.courses[0]} />
     <LongCourseSection second data={preload.courses[1]} />
