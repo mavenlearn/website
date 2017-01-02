@@ -14,6 +14,7 @@ import headerImage2 from  '../containers/img/headerImage2.jpeg';
 import headerImage3 from  '../containers/img/headerImage3.jpeg';
 import rock from  '../containers/img/rock.png';
 import Header from '../components/Header';
+import Helmet from 'react-helmet';
 
 
 const CoursePage = () => {
@@ -26,6 +27,7 @@ const CoursePage = () => {
   let modal;
   let blockTitle;
   let injectText = '';
+
   if (browserHistory.getCurrentLocation().pathname === '/apprentice') {
     img = Coder;
     section = preload.courses[0];
@@ -55,6 +57,7 @@ const CoursePage = () => {
   }
   return (
     <div>
+      <Helmet title={section.titleTag} />
       <Header />
       <CourseHeader image={headImg} />
       <CourseInfo

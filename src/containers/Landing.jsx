@@ -8,17 +8,19 @@ import InfoBlock from '../components/InfoBlock';
 import Timeline from '../components/Timeline';
 import Laptop from '../containers/img/computer.jpg';
 import Header from '../components/Header';
+import Helmet from 'react-helmet';
 
 const Landing = () => (
   <div>
+    <Helmet title={preload.homePage.titleTag} />
     <Header />
     <PageHead />
-    <InfoText text={preload.infoText} />
+    <InfoText text={preload.homePage.infoText} />
     <InfoBlock
-      title={preload.infoBlock.title}
-      description={preload.infoBlock.description}
+      title={preload.homePage.infoBlock.title}
+      description={preload.homePage.infoBlock.description}
       image={Laptop}
-      right/>
+      right />
     <Timeline />
     <CourseSection />
     <Footer />

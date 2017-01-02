@@ -1,4 +1,17 @@
 {
+    "homePage": {
+        "titleTag": "Maven Coding Bootcamp",
+        "infoText": "Maven is a coding bootcamp based in Barcelona that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
+        "infoBlock": {
+          "title": "Javascript Curriculum",
+          "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
+        }
+    },
+
+    "coursesPage": {
+        "titleTag": "Courses"
+    },
+
     "courses": [{
         "title": "Apprentice",
         "nextClass": "feb. 20. 2017",
@@ -25,7 +38,8 @@
             "title": "Scope and Closures",
             "description": "Deep dive into variable access within the JavaScript program"
         }],
-        "url": "https://mavevlearn.typeform.com/to/WdIlPD"
+        "url": "https://mavevlearn.typeform.com/to/WdIlPD",
+        "titleTag": "Apprentice Beginner's Course"
     }, {
         "title": "Immersive",
         "nextClass": "Summer 2017",
@@ -51,7 +65,8 @@
         }, {
             "title": "Projects",
             "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
-        }]
+        }],
+        "titleTag": "Maven Immersive"
     }, {
         "title": "Workshop",
         "nextClass": "Upon Request",
@@ -66,7 +81,7 @@
             "title": "Developer Workflow",
             "description": "Understand how Software Engineers collaborate and magnage their codebases as well as the technologies they use to do so" 
         }, {
-            "title": "Computer Scinece Terminology",
+            "title": "Computer Science Terminology",
             "description": "Learn some Computer Science jargon to be able to communicate more effectively with developers while learning some imporant CS concepts"
         }, {
             "title": "APIs, AJAX and REST",
@@ -75,15 +90,9 @@
             "title": "Guide through a Fullstack Application",
             "description": "Walk through all the requirments for building a fullstack application by learning the different technologies used and their tradeoffs and by understanding different developer positions and the most ocmmon tools used to build rich applications"
         }],
-        "url": "https://mavevlearn.typeform.com/to/HKmdiy"
-    }],
-
-    "infoText": "Maven is a coding bootcamp based in Barcelona that graduates mid to senior level Software Engineers. We offer a beginners course 'Apprentice' that has been designed especially for anyone wanting to take their first steps into software engineering. The course explores the keys areas to learn JavaScript, it takes you from not knowing how to program to a well versed JavaScript developer.",
-
-    "infoBlock": {
-      "title": "Javascript Curriculum",
-      "description": "A full stack JavaScript training program focused on the latest technologies and grounded by solid computer science practices."
-    }
+        "url": "https://mavevlearn.typeform.com/to/HKmdiy",
+        "titleTag": "TIB Workshop"
+    }]
 }
 
 
