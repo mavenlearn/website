@@ -74,7 +74,8 @@ const Title = styled.h1`
   margin-top:0;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  font-size:4em;
+  /*font-size:4em;*/
+  font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   z-index: 1;
@@ -131,7 +132,8 @@ let PageHead = () => (
         <Logo src={logo}/>
         <ImageLogo src={gridLogo}/>
       </Container>
-      <Title className="animated fadeInUp">Become a Software Engineer</Title>
+      <Title className="animated fadeInUp">join our coding bootcamp and learn how to code</Title>
+      <Title className="animated fadeInUp">become a software engineer</Title>
       <Button className="animated fadeInUp" href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
       <HubbleImage>
         <Image src={bgImg3} alt="hubble" />
