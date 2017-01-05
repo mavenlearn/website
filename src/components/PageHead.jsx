@@ -132,8 +132,8 @@ let PageHead = () => (
         <Logo src={logo}/>
         <ImageLogo src={gridLogo}/>
       </Container>
-      <Title className="animated fadeInUp">join our coding bootcamp and learn how to code</Title>
-      <Title className="animated fadeInUp">become a software engineer</Title>
+      <Title className="animated fadeInUp">join our coding bootcamp, learn how to code</Title>
+      <Title className="animated fadeInUp">and become a software engineer</Title>
       <Button className="animated fadeInUp" href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">Reserve</Button>
       <HubbleImage>
         <Image src={bgImg3} alt="hubble" />
@@ -144,3 +144,5 @@ let PageHead = () => (
 );
 
 export default PageHead;
+
+
