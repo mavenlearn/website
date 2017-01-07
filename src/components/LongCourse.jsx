@@ -75,18 +75,32 @@ const Button = styled.div`
 `;
 
 const LeftColumn = styled.div `
+  flex: 1 0 0;
   text-align: right;
-  margin-left: 7vw;
   margin-right: 1vw;
   margin-top: 4vw;
   margin-bottom: 4vw;
+
+
+  /*text-align: right;*/
+  /*margin-left: 7vw;*/
+  /*margin-right: 1vw;*/
+  /*margin-top: 4vw;*/
+  /*margin-bottom: 4vw;*/
 `;
 
 const RightColumn = styled.div `
+  flex: 2 0 0;
   margin-left: 1vw;
   margin-right: 3vw;
   margin-top: 4vw;
   margin-bottom: 4vw;
+
+
+  /*margin-left: 1vw;*/
+  /*margin-right: 3vw;*/
+  /*margin-top: 4vw;*/
+  /*margin-bottom: 4vw;*/
 `;
 
 
