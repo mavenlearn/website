@@ -4,6 +4,7 @@ import bgImg3 from '../containers/img/bg3.png';
 // import Menu from '../components/Menu';
 import bgImg from '../containers/img/longBg.jpg';
 import gridLogo from '../containers/img/gridAnimated.svg';
+import logoImage from '../containers/img/gridLogo.png';
 import logo from '../containers/img/logo.svg';
 import { media } from '../utils/mediaqueries';
 
@@ -48,6 +49,7 @@ const Container = styled.div`
   width: 27%;
   margin: 0 auto;
   padding-top: 50px;
+
   display: flex;
   justify-content: center;
   align-content: center;
@@ -66,6 +68,13 @@ const Logo = styled.img`
   left: 40.1vw;
   position: absolute;
   z-index: 2;
+  /*padding-top: 12vh;*/
+`;
+
+const LogoImage = styled.img`
+  width: 100%;
+  height: auto;
+  position: relative;
 `;
 
 
@@ -129,8 +138,11 @@ let PageHead = () => (
     <BgContainer>
       <Head />
       <Container>
+        {/* 
         <Logo src={logo}/>
         <ImageLogo src={gridLogo}/>
+        */}
+        <LogoImage src={logoImage}/>
       </Container>
       <Title className="animated fadeInUp">join our coding bootcamp, learn how to code</Title>
       <Title className="animated fadeInUp">and become a software engineer</Title>
