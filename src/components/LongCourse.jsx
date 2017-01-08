@@ -81,7 +81,7 @@ const LeftColumn = styled.div `
   margin-top: 4vw;
   margin-bottom: 4vw;
 
-
+  /* Works on Safari other laptops */
   /*text-align: right;*/
   /*margin-left: 7vw;*/
   /*margin-right: 1vw;*/
@@ -96,7 +96,7 @@ const RightColumn = styled.div `
   margin-top: 4vw;
   margin-bottom: 4vw;
 
-
+  /* Works on Safari other laptops */
   /*margin-left: 1vw;*/
   /*margin-right: 3vw;*/
   /*margin-top: 4vw;*/
