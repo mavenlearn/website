@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 import { Modal } from 'react-bootstrap';
-import LogoImage3 from '../containers/img/logoMaven2.png';
+import LogoImage3 from '../containers/optimizedImages/logoMaven2-1600.png';
 
 const Container = styled.div `
   flex: 1;

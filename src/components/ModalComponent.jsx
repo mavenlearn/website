@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import LogoImage3 from '../containers/img/logoMaven2.png';
+import LogoImage3 from '../containers/optimizedImages/logoMaven2-1600.png';
 import { Modal } from 'react-bootstrap';
 
 const ModalContainer = styled.div`

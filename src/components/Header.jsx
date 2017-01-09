@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import LogoImage from '../containers/img/logoMaven4.png';
 // import LogoImage2 from '../containers/img/gridLogoBlack.png';
-import LogoImage3 from '../containers/img/logoMaven2.png';
+import LogoImage3 from '../containers/optimizedImages/logoMaven2-1600.png';
 import { Link } from 'react-router';
 import ModalComponent from './ModalComponent'
 import { Modal } from 'react-bootstrap';

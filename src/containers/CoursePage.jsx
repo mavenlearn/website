@@ -7,12 +7,12 @@ import Footer from '../components/Footer';
 import InfoTitleText from '../components/InfoTitleText';
 import InfoBlock from '../components/InfoBlock';
 import CourseSyllabus from '../components/CourseSyllabus';
-import Coder from '../containers/img/coder.jpg';
-import Code from '../containers/img/code.jpeg';
-import headerImage1 from  '../containers/img/headerImage.jpg';
-import headerImage2 from  '../containers/img/headerImage2.jpeg';
-import headerImage3 from  '../containers/img/headerImage3.jpeg';
-import rock from  '../containers/img/rock.png';
+import Coder from '../containers/optimizedImages/coder-1600.jpg';
+import Code from '../containers/optimizedImages/code-1600.jpeg';
+import headerImage1 from  '../containers/optimizedImages/headerImage-1600.jpg';
+import headerImage2 from  '../containers/optimizedImages/headerImage2-1600.jpeg';
+import headerImage3 from  '../containers/optimizedImages/headerImage3-1600.jpeg';
+import rock from  '../containers/optimizedImages/rock-1600.png';
 import Header from '../components/Header';
 import Helmet from 'react-helmet';
 

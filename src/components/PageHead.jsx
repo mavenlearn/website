@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import bgImg3 from '../containers/img/bg3.png';
+import bgImg3 from '../containers/optimizedImages/bg3-1600.png';
 // import Menu from '../components/Menu';
-import bgImg from '../containers/img/longBg.jpg';
+import bgImg from '../containers/optimizedImages/longBg-1600.jpg';
 import gridLogo from '../containers/img/gridAnimated.svg';
-import logoImage from '../containers/img/gridLogo.png';
+import logoImage from '../containers/optimizedImages/gridLogo-1600.png';
 import logo from '../containers/img/logo.svg';
 import { media } from '../utils/mediaqueries';
 

@@ -5,9 +5,9 @@ import styled from 'styled-components';
 import LongCourse from './LongCourse';
 // import preload from '../data.json';
 // import { media } from '../utils/mediaqueries';
-import firstCourse from '../containers/img/firstCourse.jpeg';
-import secondCourse from '../containers/img/secondCourse.jpeg';
-import thirdCourse from '../containers/img/thirdCourse.jpg';
+import firstCourse from '../containers/optimizedImages/firstCourse-1600.jpeg';
+import secondCourse from '../containers/optimizedImages/secondCourse-1600.jpeg';
+import thirdCourse from '../containers/optimizedImages/thirdCourse-1600.jpg';
 
 const CoursesContainer = styled.div `
   display: flex;
