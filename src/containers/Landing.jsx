@@ -6,7 +6,7 @@ import PageHead from '../components/PageHead';
 import CourseSection from '../components/CourseSection';
 import InfoBlock from '../components/InfoBlock';
 import Timeline from '../components/Timeline';
-import Laptop from '../containers/optimizedImages/computer-1600.jpg';
+import Laptop from '../containers/img/computer.jpg';
 import Header from '../components/Header';
 import Helmet from 'react-helmet';
 
