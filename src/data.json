@@ -2,10 +2,10 @@
     "homePage": {
         "titleTag": "Maven Coding Bootcamp",
         "metaDescription" : "Maven Landing",
-        "infoText": "Maven is a top tier code school based in Barcelona. When looking for the best coding bootcamps, it is important to look for a school that would teach the most up to date technologies as well as solid computer science fundamentals. We teach software development at all levels. A beginner with no skills or experience in programming can learn to code in JavaScript with our ‘Apprentice’ beginners course. The course explores the key areas to learn JavaScript, one will explore the foundational concepts in computer science, and it takes one from not knowing how to program to a well-versed JavaScript developer. We have a coding bootcamp called Immersive that graduates mid to senior level Software Engineers. After an intensive 3 months at our bootcamp, graduates will become job application ready Full-Stack JavaScript web developers.",
+        "infoText": "Maven is a top tier code school based in Barcelona. When looking for the best coding bootcamps, it is important to look for a school that would teach the most up to date technologies as well as solid computer science fundamentals. We teach software development at all levels. A beginner with no skills or experience in programming can learn to program in JavaScript with our ‘Apprentice’ beginners course. The course explores the key areas to learn JavaScript, one will explore the foundational concepts in computer science, and it takes one from not knowing how to program to a well-versed JavaScript developer. We have a coding bootcamp called Immersive that graduates mid to senior level Software Engineers. After an intensive 3 months at our bootcamp, graduates will become job application ready Full-Stack JavaScript web developers.",
         "infoBlock": {
           "title": "JavaScript Curriculum",
-          "description": "We teach you how to learn to code in JavaScript. It is the language of today and the language of the future. It is the only language that runs on both the browser and the server. Making it the only true full-stack programming language. Not only is it a language that is used for front end and back end technologies, a software developer could use it to build mobile applications."
+          "description": "We teach you to learn how to code in JavaScript. It is the language of today and the language of the future. It is the only language that runs on both the browser and the server. Making it the only true full-stack programming language. Using many of its technologies, you will learn node js, learn react, and learn angular 2. Not only is it a language that is used for front end and back end technologies, a software developer could use it to build mobile applications. So if you were wondering how to learn programming, doing so in JavaScript would be a good place to start."
         }
     },
 
@@ -17,7 +17,7 @@
     "courses": [{
         "title": "Apprentice",
         "nextClass": "feb. 20. 2017",
-        "description": "Maven's Apprentice is a 4 week part-time course geared towards beginners with little to no experience in programming. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
+        "description": "Maven's Apprentice is a 4 week part-time course geared towards beginners with little to no experience in software development, programming for beginners. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
         "price": "€650 + IVA",
         "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
         "why": "At the end of the course, you will have explored foundational concepts in computer science, you will start thinking like software engineers by solving interesting problems using computer programming, and have a good sense of whether or not programming may be a career you would like to pursue",
