@@ -103,7 +103,7 @@ const Title = styled.h1`
 const Button = styled.a`
   color: #fff;
   /*width: 20%;*/
-  width: 30%;
+  width: 25%;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -146,7 +146,7 @@ let PageHead = () => (
         <LogoImage src={logoImage}/>
       </Container>
       <Title className="animated fadeInUp">join our coding bootcamp | become a software engineer</Title>
-      <Button className="animated fadeInUp" href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">learn how to code</Button>
+      <Button className="animated fadeInUp" href="https://mavevlearn.typeform.com/to/WdIlPD" target="_blank">learn to code</Button>
       <HubbleImage>
         <Image src={bgImg3} alt="hubble" />
       </HubbleImage>
