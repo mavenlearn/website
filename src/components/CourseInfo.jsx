@@ -40,9 +40,6 @@ const InfoTitle = styled.h3 `
   margin-top:0;
   /*padding: 0.2vw 0vh;*/
   font-size: 1.5vw;
-  ${media.phone`
-    display:none
-    `}
 `;
 
 const Info = styled.p `
@@ -60,9 +57,6 @@ const CourseDescription = styled.p `
     `}
   ${media.tablet`
     font-size: 1em;
-    `}
-  ${media.phone`
-    display:none
     `}
 `;
 

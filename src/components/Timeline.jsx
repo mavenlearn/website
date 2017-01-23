@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import roadmap from '../containers/img/Roadmap.png';
+import { media } from '../utils/mediaqueries';
 
 
 const Container = styled.div`
@@ -19,6 +20,10 @@ const TimeLine = styled.div`
   width:100%;
   display: flex;
   justify-content:center;
+  ${media.phone`
+    flex-direction: column;
+    align-items: center;
+    `}
 `;
 
 const Box = styled.div`
@@ -29,7 +34,12 @@ const Box = styled.div`
   margin-bottom: 10vh;
   background-color:${props => props.one ? '#3A3E4A' : props.two ? '#444A5A' : props.three ? '#3A3E4A' : 'rgb(43, 45, 51)'} ;
   ${''/* order: ${props => props.one ? 1 : props.two ? 2 : props.three ? 3 : 0};*/}
-
+  ${media.phone`
+    height: 30vh;
+    width: 50%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    `}
 `;
 
 const BoxTitle = styled.p`

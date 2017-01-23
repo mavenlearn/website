@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Course from './Course';
+import { media } from '../utils/mediaqueries';
 import preload from '../data.json';
 
 const CoursesContainer = styled.div `
@@ -13,6 +14,9 @@ const CoursesContainer = styled.div `
   margin: 0 auto;
   width: 94vw;
   margin-top: 4vh;
+  ${media.phone`
+    flex-direction: column;
+    `}
 `;
 
 const Background = styled.div `
