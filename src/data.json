@@ -1,6 +1,6 @@
 {
     "homePage": {
-        "titleTag": "Maven Coding Bootcamp",
+        "titleTag": "Maven: Coding Bootcamp - Learn Javascript",
         "metaDescription" : "Maven Landing",
         "infoText": "Maven is a top tier code school based in Barcelona. When looking for the best coding bootcamps, it is important to look for a school that would teach the most up to date technologies as well as solid computer science fundamentals. We teach software development at all levels. A beginner with no skills or experience in programming can learn to program in JavaScript with our ‘Apprentice’ beginners course. The course explores the key areas to learn JavaScript, one will explore the foundational concepts in computer science, and it takes one from not knowing how to program to a well-versed JavaScript developer. We have a coding bootcamp called Immersive that graduates mid to senior level Software Engineers. After an intensive 3 months at our bootcamp, graduates will become job application ready Full-Stack JavaScript web developers.",
         "infoBlock": {
@@ -10,7 +10,7 @@
     },
 
     "coursesPage": {
-        "titleTag": "Courses",
+        "titleTag": "Coding Bootcamp Javascript Courses",
         "metaDescription": "Maven Courses"
     },
 
@@ -41,7 +41,7 @@
             "description": "Deep dive into variable access within the JavaScript program"
         }],
         "url": "https://mavevlearn.typeform.com/to/WdIlPD",
-        "titleTag": "Apprentice Beginner's Course",
+        "titleTag": "Javascript Beginner's Course",
         "metaDescription": "Maven Apprentice"
     }, {
         "title": "Immersive",
@@ -69,7 +69,7 @@
             "title": "Projects",
             "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
         }],
-        "titleTag": "Maven Immersive",
+        "titleTag": "Coding Bootcamp Immersive",
         "metaDescription": "Maven Immersive"
     }, {
         "title": "Workshop",
@@ -95,7 +95,7 @@
             "description": "Walk through all the requirments for building a fullstack application by learning the different technologies used and their tradeoffs and by understanding different developer positions and the most ocmmon tools used to build rich applications"
         }],
         "url": "https://mavevlearn.typeform.com/to/HKmdiy",
-        "titleTag": "TIB Workshop",
+        "titleTag": "Coding Bootcamp Workshop",
         "metaDescription": "Maven Workshop"
     }]
 }

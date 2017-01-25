@@ -167,6 +167,10 @@ Modal
   text-align: center;
 }
 
+.hide {
+  display: none;
+}
+
 /*
 footer
 */

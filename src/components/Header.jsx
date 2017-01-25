@@ -6,6 +6,8 @@ import LogoImage3 from '../containers/optimizedImages/logoMaven2-1600.png';
 import { Link } from 'react-router';
 import ModalComponent from './ModalComponent'
 import { Modal } from 'react-bootstrap';
+import { media } from '../utils/mediaqueries';
+import Menu from '../components/Menu';
 
 const Container = styled.nav`
   background-color: blue;
@@ -29,6 +31,9 @@ const Navigation = styled.nav`
 
 const Logo = styled.img`
   width: 3vw;
+  ${media.phone`
+   width: 8vw;
+    `}
 `;
 
 const Button = styled.a`
@@ -65,6 +70,11 @@ const Button = styled.a`
   border: 1px solid white;
 `;
 
+const PageLink = styled.span`
+  ${media.phone`
+    display: none;
+    `}
+`;
 
 const Header = React.createClass({
 
@@ -85,9 +95,10 @@ const Header = React.createClass({
       <Container>
         <Navigation>
           <Link className='navLogo' to='/'><Logo src={LogoImage3} width="40px" /></Link>
-          <Link className='headLink' to='/courses'>Courses &nbsp;|</Link>
-          <Link className='headLink' onClick={this.open}>Contact Us</Link>
-          <Button href='https://mavevlearn.typeform.com/to/WdIlPD' target='_blank'>Apply Now</Button>
+          <Link className='headLink' to='/courses'><PageLink>Courses &nbsp;|</PageLink></Link>
+          <Link className='headLink' onClick={this.open}><PageLink>Contact Us</PageLink></Link>
+          <PageLink><Button href='https://mavevlearn.typeform.com/to/WdIlPD' target='_blank'>Apply Now</Button></PageLink>
+          <Menu />
         </Navigation>
         <Modal show={this.state.showModal} onHide={this.close}>
           <ModalComponent />

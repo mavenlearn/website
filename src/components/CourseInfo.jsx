@@ -14,6 +14,10 @@ const Container = styled.div `
   box-shadow: 0 2px 10px 0 rgba(88, 88, 88, 0.23);
   position: relative;
   background-color: white;
+   ${media.phone`
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    `}
 `;
 
 const CourseText = styled.div `
@@ -57,6 +61,9 @@ const CourseDescription = styled.p `
     `}
   ${media.tablet`
     font-size: 1em;
+    `}
+  ${media.phone`
+    /*line-height: normal;*/
     `}
 `;
 

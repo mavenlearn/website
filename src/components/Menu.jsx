@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/mediaqueries';
 import { Link } from 'react-router';
+import { Modal } from 'react-bootstrap';
+import ModalComponent from './ModalComponent'
 
 const NavList = styled.nav`
   animation: fadeInRight .5s ease forwards;
@@ -60,19 +62,21 @@ const MenuContainer = styled.div`
   height: 6vw;
   position: absolute;
   top: 5vh;
-  left: 3vw;
+  right: 3vw;
   cursor: pointer;
   z-index: 100;
   transition: all 0.3 ease;
   border: 1px;
+  display: none;
 
   ${media.tablet`
     width: 5vw;
     `}
   ${media.phone`
+    display: block;
     width: 6vw;
-    left: 4vw;
-    top: 4vh;
+    right: 4vw;
+    top: 3vh;
     `}
 
   &.hidden {
@@ -92,9 +96,10 @@ const Line1 = styled.span`
   top:0;
   left:0;
   transition: all 0.3 ease;
-  transform: translateY(11px) translateX(0) rotate(-55deg);
+  /*transform: translateY(11px) translateX(0) rotate(-55deg);*/
   &.active {
-    transform: translateY(20px) rotate(45deg);
+    /*transform: translateY(20px) rotate(45deg);*/
+    transform: translateY(15px) rotate(45deg);
   }
 `;
 
@@ -104,14 +109,17 @@ const Line2 = styled.span`
   height: 2px;
   width: 100%;
   position: absolute;
-  top:20px;
+  top:15px;
   left:0;
   transition: all 0.3 ease;
-  transform: translateY(11px) translateX(0) rotate(-55deg);
+  /*transform: translateY(11px) translateX(0) rotate(-55deg);*/
   &.active {
+    /*transform: rotate(-45deg);*/
     transform: rotate(-45deg);
   }
 `;
+
+
 
 class Menu extends React.Component {
   constructor(props) {
@@ -119,13 +127,24 @@ class Menu extends React.Component {
 
     this.state = {
       clicked: false,
+      showModal: false
     }
 
     this.handleMenuClick = this.handleMenuClick.bind(this);
+    this.close = this.handleMenuClick.bind(this);
+    this.open = this.handleMenuClick.bind(this);
   }
 
   handleMenuClick () {
     this.setState({clicked: !this.state.clicked});
+  }
+
+  close () {
+    this.setState({ showModal: false });
+  }
+
+  open() {
+    this.setState({ showModal: true });
   }
 
   render () {
@@ -145,11 +164,12 @@ class Menu extends React.Component {
             <List>
               <ListItem><Link to="/" className="menu">Home</Link></ListItem>
               <ListItem><Link to="/courses" className="menu">Courses</Link></ListItem>
-              <ListItem><ListLink>Blog</ListLink></ListItem>
-              <ListItem><ListLink>FAQ</ListLink></ListItem>
-              <ListItem><ListLink>Contact Us</ListLink></ListItem>
+              <ListItem><ListLink onClick={this.open}>Contact Us</ListLink></ListItem>
             </List>
           </NavList>
+          <Modal show={this.state.showModal} onHide={this.close}>
+            <ModalComponent />
+          </Modal>
         </Overlay>}
       </div>
     )
