@@ -109,7 +109,7 @@ const Line2 = styled.span`
   height: 2px;
   width: 100%;
   position: absolute;
-  top:15px;
+  top:10px;
   left:0;
   transition: all 0.3 ease;
   /*transform: translateY(11px) translateX(0) rotate(-55deg);*/
@@ -131,8 +131,8 @@ class Menu extends React.Component {
     }
 
     this.handleMenuClick = this.handleMenuClick.bind(this);
-    this.close = this.handleMenuClick.bind(this);
-    this.open = this.handleMenuClick.bind(this);
+    this.close = this.close.bind(this);
+    this.open = this.open.bind(this);
   }
 
   handleMenuClick () {
@@ -143,7 +143,7 @@ class Menu extends React.Component {
     this.setState({ showModal: false });
   }
 
-  open() {
+  open () {
     this.setState({ showModal: true });
   }
 
@@ -167,10 +167,10 @@ class Menu extends React.Component {
               <ListItem><ListLink onClick={this.open}>Contact Us</ListLink></ListItem>
             </List>
           </NavList>
-          <Modal show={this.state.showModal} onHide={this.close}>
-            <ModalComponent />
-          </Modal>
         </Overlay>}
+        <Modal show={this.state.showModal} onHide={this.close}>
+          <ModalComponent />
+        </Modal>
       </div>
     )
   }

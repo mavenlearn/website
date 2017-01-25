@@ -98,6 +98,10 @@ const Button = styled.a`
     color: white;
   }
 
+  ${media.phone`
+    font-size: 2.5vw;
+    `}
+
 `;
 
 const InfoBlock = (props) => (

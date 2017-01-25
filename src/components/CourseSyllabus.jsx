@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import { media } from '../utils/mediaqueries';
 import SyllabusText from './SyllabusText';
+import { media } from '../utils/mediaqueries';
 
 const Info = styled.div`
   width: 100%;
@@ -52,6 +53,10 @@ const Button = styled.a`
     background: black;
     color: white;
   }
+
+  ${media.phone`
+    font-size: 2.5vw;
+    `}
 
 `;
 

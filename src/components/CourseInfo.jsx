@@ -5,7 +5,7 @@ import { Modal } from 'react-bootstrap';
 import LogoImage3 from '../containers/optimizedImages/logoMaven2-1600.png';
 
 const Container = styled.div `
-  flex: 1;
+  /*flex: 1;*/
   text-align: left;
   margin-right: 4vw;
   margin-left: 4vw;
@@ -26,6 +26,9 @@ const CourseText = styled.div `
   font-size: 1.3rem;
   font-weight: 100;
   line-height: 3rem;
+  ${media.phone`
+    flex-direction: column;
+    `}
 `;
 
 const CourseTitle = styled.h2 `
@@ -44,6 +47,11 @@ const InfoTitle = styled.h3 `
   margin-top:0;
   /*padding: 0.2vw 0vh;*/
   font-size: 1.5vw;
+   ${media.phone`
+    font-size: 2vw;
+    margin-top: 3vh;
+    margin-bottom: 0;
+    `}
 `;
 
 const Info = styled.p `
@@ -51,6 +59,11 @@ const Info = styled.p `
   /*color: black;*/
   font-size: 3vw;
   font-weight: 100;
+  margin-bottom: 5vh;
+  ${media.phone`
+    margin-bottom: 2vh;
+    margin-top: 0;
+    `}
 `;
 
 const CourseDescription = styled.p `
@@ -97,17 +110,27 @@ const Button = styled.a`
     color: white;
   }
 
+  ${media.phone`
+    font-size: 2.5vw;
+    `}
+
 `;
 
 const LeftColumn = styled.div `
   flex: 2 0 0;
   margin-left: 3vw;
   margin-right: 3vw;
+   ${media.phone`
+    /*display: none;*/
+    `}
 `;
 
 const RightColumn = styled.div `
   flex: 1 0 0;
   margin-left: 3vw;
+  ${media.phone`
+    /*display: none;*/
+    `}
 `;
 
 const Line = styled.hr `

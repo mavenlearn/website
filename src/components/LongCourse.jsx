@@ -72,6 +72,10 @@ const Button = styled.div`
     background: black;
     color: white;
   }
+
+  ${media.phone`
+    font-size: 3vw;
+    `}
 `;
 
 const LeftColumn = styled.div `

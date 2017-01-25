@@ -8,6 +8,7 @@ import LongCourse from './LongCourse';
 import firstCourse from '../containers/optimizedImages/firstCourse-1600.jpeg';
 import secondCourse from '../containers/optimizedImages/secondCourse-1600.jpeg';
 import thirdCourse from '../containers/optimizedImages/thirdCourse-1600.jpg';
+import { media } from '../utils/mediaqueries';
 
 const CoursesContainer = styled.div `
   display: flex;
@@ -40,6 +41,10 @@ const Background = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  ${media.phone`
+    height: 65vh;
+    `}
 `;
 
 const Text = styled.h2 `
