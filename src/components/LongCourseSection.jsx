@@ -43,7 +43,7 @@ const Background = styled.div `
   justify-content: center;
 
   ${media.phone`
-    height: 65vh;
+    height: 75vh;
     `}
 `;
 

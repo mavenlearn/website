@@ -99,7 +99,7 @@ const Line1 = styled.span`
   /*transform: translateY(11px) translateX(0) rotate(-55deg);*/
   &.active {
     /*transform: translateY(20px) rotate(45deg);*/
-    transform: translateY(15px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
   }
 `;
 
