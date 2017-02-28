@@ -1,7 +1,7 @@
 {
     "homePage": {
         "titleTag": "Maven: Coding Bootcamp - Learn Javascript",
-        "metaDescription" : "Maven Landing",
+        "metaDescription" : "Coding Bootcamp Barcelona",
         "infoText": "Maven is a top tier code school based in Barcelona. When looking for the best coding bootcamps, it is important to look for a school that would teach the most up to date technologies as well as solid computer science fundamentals. We teach software development at all levels. A beginner with no skills or experience in programming can learn to program in JavaScript with our ‘Apprentice’ beginners course. The course explores the key areas to learn JavaScript, one will explore the foundational concepts in computer science, and it takes one from not knowing how to program to a well-versed JavaScript developer. We have a coding bootcamp called Immersive that graduates mid to senior level Software Engineers. After an intensive 3 months at our bootcamp, graduates will become job application ready Full-Stack JavaScript web developers.",
         "infoBlock": {
           "title": "JavaScript Curriculum",
@@ -11,13 +11,13 @@
 
     "coursesPage": {
         "titleTag": "Coding Bootcamp Javascript Courses",
-        "metaDescription": "Maven Courses"
+        "metaDescription": "Coding Bootcamp for learning JavaScript in Barcelona"
     },
 
     "courses": [{
-        "title": "Apprentice",
+        "title": "JavaScript 101",
         "nextClass": "apr. 3. 2017",
-        "description": "Maven's Apprentice is a 4 week part-time course geared towards beginners with little to no experience in software development, programming for beginners. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
+        "description": "Maven's JavaScript 101 is a 4 week part-time course geared towards beginners with little to no experience in programming. Over the course of 20 classes, you will learn the fundamentals of programming using the most popular language on the web, JavaScript.",
         "price": "€650 + IVA",
         "who": "There is no prior computer programming knowledge needed for this course. Beginners are welcome!",
         "why": "At the end of the course, you will have explored foundational concepts in computer science, you will start thinking like software engineers by solving interesting problems using computer programming, and have a good sense of whether or not programming may be a career you would like to pursue",
@@ -42,7 +42,7 @@
         }],
         "url": "https://mavenlearn.typeform.com/to/WdIlPD",
         "titleTag": "Javascript Beginner's Course",
-        "metaDescription": "Maven Apprentice"
+        "metaDescription": "JavaScript course for beginners"
     }, {
         "title": "Immersive",
         "nextClass": "Summer 2017",
@@ -70,7 +70,7 @@
             "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
         }],
         "titleTag": "Coding Bootcamp Immersive",
-        "metaDescription": "Maven Immersive"
+        "metaDescription": "Coding Bootcamp Immersive fullstack JavaScript"
     }, {
         "title": "Workshop",
         "nextClass": "Upon Request",
@@ -96,7 +96,7 @@
         }],
         "url": "https://mavevlearn.typeform.com/to/HKmdiy",
         "titleTag": "Coding Bootcamp Workshop",
-        "metaDescription": "Maven Workshop"
+        "metaDescription": "Coding Bootcamp Technology in Business workshop for MBA students"
     }]
 }
 
