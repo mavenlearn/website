@@ -1,6 +1,6 @@
 {
     "homePage": {
-        "titleTag": "Maven: Coding Bootcamp - Learn Javascript",
+        "titleTag": "Maven: Coding Bootcamp - Learn Javascript in Barcelona",
         "metaDescription" : "Coding Bootcamp Barcelona",
         "infoText": "Maven is a top tier code school based in Barcelona. When looking for the best coding bootcamps, it is important to look for a school that would teach the most up to date technologies as well as solid computer science fundamentals. We teach software development at all levels. A beginner with no skills or experience in programming can learn to program in JavaScript with our ‘Apprentice’ beginners course. The course explores the key areas to learn JavaScript, one will explore the foundational concepts in computer science, and it takes one from not knowing how to program to a well-versed JavaScript developer. We have a coding bootcamp called Immersive that graduates mid to senior level Software Engineers. After an intensive 3 months at our bootcamp, graduates will become job application ready Full-Stack JavaScript web developers.",
         "infoBlock": {
@@ -70,7 +70,7 @@
             "description": "Collaborate with a team and use your new ability of autonomous learning to create applications that use the most up to date technologies as well as act as additions to your Software Engineering portfolio"
         }],
         "titleTag": "Coding Bootcamp Immersive",
-        "metaDescription": "Coding Bootcamp Immersive fullstack JavaScript"
+        "metaDescription": "Coding Bootcamp Immersive fullstack JavaScript - leading immersive school in Europe"
     }, {
         "title": "Workshop",
         "nextClass": "Upon Request",
