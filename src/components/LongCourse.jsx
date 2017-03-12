@@ -110,8 +110,8 @@ const RightColumn = styled.div `
 
 const LongCourse = (props) => {
   let link;
-  if (props.course.title === "Apprentice") {
-    link = "/apprentice";
+  if (props.course.title === "JavaScript 101") {
+    link = "/javascript101";
   } else if (props.course.title === "Immersive") {
     link = "/immersive";
   } else if (props.course.title === "Workshop") {

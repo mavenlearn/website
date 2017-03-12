@@ -28,7 +28,7 @@ const CoursePage = () => {
   let blockTitle;
   let injectText = '';
 
-  if (browserHistory.getCurrentLocation().pathname === '/apprentice') {
+  if (browserHistory.getCurrentLocation().pathname === '/javascript101') {
     img = Coder;
     section = preload.courses[0];
     headImg = headerImage1;

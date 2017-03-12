@@ -57,7 +57,7 @@ const Course = (props) => (
       <CourseTitle>{props.course.title}</CourseTitle>
       <CourseNextClass>Next Class: {props.course.nextClass}</CourseNextClass>
       <CourseDescription className="course-description">{props.course.description}</CourseDescription>
-      <Link className="button" to={props.course.title === "Apprentice" ? "/apprentice" : "/workshop"}>Learn More </Link>
+      <Link className="button" to={props.course.title === "JavaScript 101" ? "/javascript101" : "/workshop"}>Learn More </Link>
     </CourseText>
   </Container>
 );
